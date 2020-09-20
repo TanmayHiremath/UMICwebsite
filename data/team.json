@@ -1,0 +1,475 @@
+[
+{
+    "model": "team.currentteam",
+    "pk": 1,
+    "fields": {
+        "year": 2020,
+        "group_photo": "team/IMG_20190203_124435.jpeg"
+    }
+},
+{
+    "model": "team.oc",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Harshal Kataria",
+        "email": "harshalkataria14@gmail.com",
+        "image": "team/current_team/OC/IMG_20190302_140222_-_Harshal_Kataria.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Overall Coordinator",
+        "fb": "https://www.facebook.com/harshal.kataria.9",
+        "linkedin": "https://www.linkedin.com/in/harshal-kataria-40a42a14b",
+        "interests": "Enthusiastic about Autonomous Systems, UAVs and Biomimicry. Observational Learner!",
+        "yr_dept": "4th year, Aerospace  Engineering"
+    }
+},
+{
+    "model": "team.oc",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Pranav Sunil Deo",
+        "email": "pranav@umiciitb.ac.in",
+        "image": "team/current_team/OC/rsz_img_20191225_071401_bokeh_-_Pranav_Deo.jpg",
+        "team": "SeDriCa",
+        "subsystem": "Overall Coordinator",
+        "fb": "https://www.facebook.com/pranav.deo.946",
+        "linkedin": "https://www.linkedin.com/in/pranavdeo99/",
+        "interests": "Major technical interests in AI-driven systems, Computer Vision and robotics, Chess enthusiast.",
+        "yr_dept": "4th year, Civil Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Nihal Barde",
+        "email": "nihalbarde@gmail.com",
+        "image": "team/current_team/team_members/IMG_20191225_073113_Bokeh_-_Nil_Barde_hWbkGGs.jpg",
+        "team": "SeDriCa",
+        "subsystem": "Team Leader",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Autonomous vehicles, Robotics",
+        "yr_dept": "4th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Jigyasu",
+        "email": "tajinup@gmail.com",
+        "image": "team/current_team/team_members/IMG_20190908_161612_254_-_Jigyasu_Chand.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Team Leader",
+        "fb": "https://www.facebook.com/jigyashu.chand",
+        "linkedin": "https://in.linkedin.com/in/jigyasuchand",
+        "interests": "Aircraft | Music | Photography",
+        "yr_dept": "4th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 3,
+    "fields": {
+        "property": 1,
+        "name": "Mridul Agarwal",
+        "email": "mridul407@gmail.com",
+        "image": "team/current_team/team_members/UMIC_website_-_Mridul_Agarwal_T78FlPI.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Deputy Team Leader",
+        "fb": "https://www.facebook.com/mridul.agarwal.752",
+        "linkedin": "https://www.linkedin.com/in/mridul-a-54b88111a/",
+        "interests": "Dynamics and controls of robotics systems, avid space enthusiast. Love to play tennis, drums and guitar.",
+        "yr_dept": "3rd year, Aerospace Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 4,
+    "fields": {
+        "property": 1,
+        "name": "Pavan Kale",
+        "email": "kalepavan1234@gmail.com",
+        "image": "team/current_team/team_members/UMICpropicsquare_-_Pavan_Kale_eRoWuji_PkwyOHC.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Controls Subsystem Lead",
+        "fb": "https://www.facebook.com/pavan.kale.51/",
+        "linkedin": "https://www.linkedin.com/in/pavan-kale-548871185/",
+        "interests": "Technopreneurship, Painting and Sketching, Reading Books",
+        "yr_dept": "3rd year, MEMS"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 5,
+    "fields": {
+        "property": 1,
+        "name": "Utkarsh Thakre",
+        "email": "17d10018@iitb.ac.in",
+        "image": "team/current_team/team_members/IMG_20200623_164048_-_Utkarsh_Thakre.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Technical Advisor",
+        "fb": "https://www.facebook.com/utkarsh.thakre.184/",
+        "linkedin": "https://www.linkedin.com/in/utkarsht18",
+        "interests": "Multi-physics modeling and formulations of Mechanical and Aerospace Problems",
+        "yr_dept": "4th year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 7,
+    "fields": {
+        "property": 1,
+        "name": "Harshit Garg",
+        "email": "hgarg9460@gmail.com",
+        "image": "team/current_team/team_members/IMG-20200715-WA0021_-_Harshit_Garg.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Mechatronics subsytem head",
+        "fb": "https://www.facebook.com/profile.php?id=100026351446633",
+        "linkedin": "https://www.linkedin.com/in/harshit-garg-00456317b/",
+        "interests": "Cricket, CS(not into computer science but Counter-Strike)",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 8,
+    "fields": {
+        "property": 1,
+        "name": "Anshul Gupta",
+        "email": "anshulg825@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200210_001900_-_Anshul_Gupta_O4bN2Vf.jpg",
+        "team": "SeDriCa",
+        "subsystem": "Senior Perception Engineer",
+        "fb": "https://www.facebook.com/profile.php?id=100005063910822",
+        "linkedin": "https://www.linkedin.com/in/anshulg825/",
+        "interests": "Computer Vision and Autonomous Robotics. Love playing games, watching movies, trekking.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 9,
+    "fields": {
+        "property": 1,
+        "name": "Rohit Rushil",
+        "email": "rushil.rohit@gmail.com",
+        "image": "team/current_team/team_members/FB_IMG_1592808505964_-_rohit_rushil.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Senior Computer Vision Engineer",
+        "fb": "https://www.facebook.com/rohit.rushil.9",
+        "linkedin": "https://www.linkedin.com/in/rohit-rushil-15294a19b/",
+        "interests": "Perception abilities of autonomous systems, AI enthusiast. Love playing games like CSGO, Chess.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 10,
+    "fields": {
+        "property": 1,
+        "name": "Gagan Jain",
+        "email": "thesmilingsky1530@gmail.com",
+        "image": "team/current_team/team_members/dp_-_Gagan_Jain.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Controls Subsystem Lead",
+        "fb": "https://www.facebook.com/gaganjain1582",
+        "linkedin": "https://www.linkedin.com/in/gaganjain15/",
+        "interests": "Interested in Robotics, CV and RL. Professional procrastinator, Pizza lover, Potterhead!",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 11,
+    "fields": {
+        "property": 1,
+        "name": "Hitvarth Diwanji",
+        "email": "hitvarthdiwanji@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200622_164905-01_-_Hitvarth_Diwanji.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Junior Path Planning Engineer",
+        "fb": "https://www.facebook.com/hitvarth.diwanji",
+        "linkedin": "https://www.linkedin.com/in/hitvarth-diwanji-1b1b6819a",
+        "interests": "Artificial intelligence, coding , Mathematics. Love to play guitar, write poems and draw sketches.",
+        "yr_dept": "2nd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 12,
+    "fields": {
+        "property": 1,
+        "name": "Kratik Bhadoriya",
+        "email": "kratikbhadoriya2001@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200623_150202__01_-_KRATIK_BHADORIYA_kQC8oLF.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Senior Mechatronics Engineer",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://www.linkedin.com/in/kratik-bhadoriya-a280481b3",
+        "interests": "CAD Modelling, Simulations, Aerodynamics, Football and online gaming",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 13,
+    "fields": {
+        "property": 1,
+        "name": "Jennish Dharma J J",
+        "email": "jennishdharma@gmail.com",
+        "image": "team/current_team/team_members/WhatsApp_Image_2020-07-21_at_16.52.55_-_Jennish_Dharma.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Senior Path Planning Engineer",
+        "fb": "https://www.facebook.com/jennish.dharma",
+        "linkedin": "https://www.linkedin.com/in/jennish-dharma-j-j-77a349192/",
+        "interests": "Machine learning enthusiast, AI driven automation and competitive coding. Play Badminton, Cricket, Chess.",
+        "yr_dept": "3rd year, Chemical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 14,
+    "fields": {
+        "property": 1,
+        "name": "Keerthan Ramesh",
+        "email": "keerthanr2000@gmail.com",
+        "image": "team/current_team/team_members/IMG_20191209_170427_Bokeh__01_-_Keerthan_Ramesh.jpg",
+        "team": "SeDriCa",
+        "subsystem": "Perception Subsystem Lead",
+        "fb": "https://www.facebook.com/keerthan.ramesh/",
+        "linkedin": "https://www.linkedin.com/in/keerthan-ramesh-446950174/",
+        "interests": "Robotics and autonomous systems. Also love to play football, read books, traveling and a foodie",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 17,
+    "fields": {
+        "property": 1,
+        "name": "Sreeraj SJ",
+        "email": "sreerajsj10@hotmail.com",
+        "image": "team/current_team/team_members/IMG_20200229_204839_-_Sreeraj_S_J.jpg",
+        "team": "SeDriCa",
+        "subsystem": "Systems Head",
+        "fb": "https://www.facebook.com/MrSecrets18",
+        "linkedin": "https://www.linkedin.com/in/sreeraj-s-j-3a620b14b/",
+        "interests": "Always in the search for exotic cuisine",
+        "yr_dept": "4th year, Chemical"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 19,
+    "fields": {
+        "property": 1,
+        "name": "Harshil Naik",
+        "email": "harshil3004@gmail.com",
+        "image": "team/current_team/team_members/E85242CE-78C0-4C52-82FC-04107B453055_-_Harshil_Naik.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Controls System Engineer",
+        "fb": "http://google.com",
+        "linkedin": "http://linkedin.com/in/harshilnaikk",
+        "interests": "Autonomous Aerial Vehicles, mountain hikes, Christopher Nolan movies, Graphic Designing and Nutella.",
+        "yr_dept": "2nd year, Aerospace Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 20,
+    "fields": {
+        "property": 1,
+        "name": "Hiya Gada",
+        "email": "hiyagada2001@gmail.com",
+        "image": "team/current_team/team_members/Hiya_formal_picture_-_Hiya_Gada.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Junior Mechatronics Engineer",
+        "fb": "https://www.facebook.com/hiya.gada",
+        "linkedin": "http://linkedin.com/in/hiya-gada-154411192",
+        "interests": "Drone designing and control systems. I love to make music, read and write. A Philomath.",
+        "yr_dept": "2nd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 21,
+    "fields": {
+        "property": 1,
+        "name": "Yash Bhavsar",
+        "email": "yashbhavsar1205@gmail.com",
+        "image": "team/current_team/team_members/Image_1595305566_-_Yash_Bhavsar.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Senior Machine Learning Engineer",
+        "fb": "https://www.facebook.com/yash.bhavsar.3576",
+        "linkedin": "https://www.linkedin.com/in/yash-bhavsar-11a0881a9",
+        "interests": "ML, CV, Signal Processing. Music's my saviour, Loves to play and watch Cricket.",
+        "yr_dept": "2nd year, Electrical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 22,
+    "fields": {
+        "property": 1,
+        "name": "Mithil Vakde",
+        "email": "mvakde12@gmail.com",
+        "image": "team/current_team/team_members/MithilProfilePic_edit_-_Mithil_Vakde.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Junior Machine Learning Engineer",
+        "fb": "https://www.facebook.com/mvakde",
+        "linkedin": "https://www.linkedin.com/in/mithil-vakde-71b110192/",
+        "interests": "Quantum computing, pure physics and mathematics. Dancing, drumming and volleyball.",
+        "yr_dept": "2nd year, Chemical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 23,
+    "fields": {
+        "property": 1,
+        "name": "Atharva Mete",
+        "email": "atharvamete12@gmail.com",
+        "image": "team/current_team/team_members/IMG20200302134912_-_Atharva_Mete.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Junior Controls Engineer",
+        "fb": "https://www.facebook.com/atharva.mete/",
+        "linkedin": "https://www.linkedin.com/in/atharva-mete",
+        "interests": "Robotics and Aeromodelling. Like swimming, reading(especially about medieval history) and culinary arts.",
+        "yr_dept": "2nd year, Aerospace Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 24,
+    "fields": {
+        "property": 1,
+        "name": "Vijayant Monu Patel",
+        "email": "vijayantpatel1234@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200722_122744_-_Vijayant_Patel.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Senior Mechatronics Engineer",
+        "fb": "https://www.facebook.com/vijayant.patel.5",
+        "linkedin": "https://www.linkedin.com/in/vijayantmonu-patel-4981401b3",
+        "interests": "Like to make and explore cool mechanical models.  Love probability and logical reasoning. Footballer.",
+        "yr_dept": "2nd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 25,
+    "fields": {
+        "property": 1,
+        "name": "Bhuvan Aggarwal",
+        "email": "bhuvanaggarwal9@gmail.com",
+        "image": "team/current_team/team_members/photo_square_-_Bhuvan_Aggarwal.png",
+        "team": "SeDriCa",
+        "subsystem": "Junior Perception engineer",
+        "fb": "https://www.facebook.com/bhuvan.aggarwal.16/",
+        "linkedin": "https://www.linkedin.com/in/bhuvan-aggarwal-77b1b4191/",
+        "interests": "ML, full stack development, graphics, python, big time foodie, loves badminton and listening to music.",
+        "yr_dept": "2nd year, Civil Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 26,
+    "fields": {
+        "property": 1,
+        "name": "Rishab Khantwal",
+        "email": "rishabkhantwal11@gmail.com",
+        "image": "team/current_team/team_members/IMG_20191129_120435_-_Rishab_Khantwal_juxSZf9.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Machine Learning Subsystem Lead",
+        "fb": "https://www.facebook.com/profile.php?id=100008665746063",
+        "linkedin": "https://www.linkedin.com/in/rishab-khantwal-2061ab191/",
+        "interests": "Interested in Data science, I like ML but I love DL.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.studentadvisor",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Hardik Jain",
+        "email": "hardikjain3101@gmail.com",
+        "image": "team/current_team/student_advisors/IMG_20200228_125103988_-_Hardik_Jain.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Technical Advisor",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Major interests in Autonomous Systems, Computer Vision.",
+        "yr_dept": "5th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.studentadvisor",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Trishant Roy",
+        "email": "trishantroy@gmail.com",
+        "image": "team/current_team/student_advisors/H9_Council_Cropped_-_Trishant_Roy.jpg",
+        "team": "AeRoVe",
+        "subsystem": "Technical Advisor",
+        "fb": "https://www.facebook.com/trishantroy.221b",
+        "linkedin": "https://www.linkedin.com/in/trishant-roy-153417183/",
+        "interests": "Distributed algorithms in motion planning and controls domains for cyber-physical systems.",
+        "yr_dept": "5th year, Energy Science and Engineering"
+    }
+},
+{
+    "model": "team.faculty",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Amit Sethi",
+        "division": "SeDriCa",
+        "image": "team/current_team/faculty/amit-200x200.jpeg",
+        "dept": "Department of Electrical Engineering"
+    }
+},
+{
+    "model": "team.faculty",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Dhwanil Shukla",
+        "division": "AeRoVe",
+        "image": "team/current_team/faculty/dhwanil_dp.jpeg",
+        "dept": "Department of Aerospace Engineering"
+    }
+},
+{
+    "model": "team.pastteam",
+    "pk": 1,
+    "fields": {
+        "years": "2015-2019"
+    }
+},
+{
+    "model": "team.pastoc",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "sdfkhjasd",
+        "image": "team/past_team/past_oc/default_n1c5o8t.png",
+        "current_company": null
+    }
+},
+{
+    "model": "team.notablealumni",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "sdkajlfh",
+        "image": "team/default.png",
+        "current_company": null
+    }
+}
+]

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+	{{title}}
+{% endblock %}
+
+{% block content %}
+<div class="image px-0">
+    <img src="{{ ct.group_photo.url }}" class="img-responsive" width="100%" height="" alt="UMIC Team" />
+</div>
+
+<!-- <div class="col-md-12 text-center py-3">
+	<ul class="nav nav-pills" style="display: flex; justify-content: center;">
+  		<li class="nav-item">
+    		<a href="{% url 'current_team_page' %}" class='nav-link {{ current_active }}'>Current Team</a>
+  		</li>
+  		<li class='nav-item'>
+   			<a href="{% url 'past_team_page' %}" class='nav-link {{ past_active }}'>Past Team</a>
+  		</li>
+	</ul>
+</div> -->
+
+</ul>
+	{% block team %}
+
+	{% endblock %}
+{% endblock %}

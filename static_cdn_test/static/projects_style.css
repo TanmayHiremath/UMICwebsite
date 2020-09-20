@@ -1,0 +1,12 @@
+.projects_heading {
+  font-size: 45px;
+  padding-left: 10rem;
+  font-style: bold;
+}
+
+@media (max-width: 992px) {
+  .projects_heading {
+    padding-left: 0;
+    text-align: center;
+  }
+}

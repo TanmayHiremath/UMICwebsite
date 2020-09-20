@@ -1,0 +1,45 @@
+{% extends "team/team.html" %}
+
+{% block team %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/team_members.css' %}">
+<section id="team" class="pb-5">
+    <div class="container bg-light">
+        <h3 class="section-title bg-dark py-3">Past Overall Co-ordinators</h3>
+        <div class="row justify-content-center">
+            {% for past_oc_obj in past_oc %}
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="frontside">
+                    <div class="card frontcard">
+                        <div class="card-body text-center">
+                            <p><img class=" img-fluid" src="{{ past_oc_obj.image.url }}" alt="{{ past_oc_obj.name }}"></p>
+                            <h4 class="card-title">{{ past_oc_obj.name }}</h4>
+                            <p class="card-text">{{ past_oc_obj..current_company }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container bg-light">
+        <h3 class="section-title bg-dark py-3">Notable Alumni</h3>
+        <div class="row justify-content-center">
+            {% for na_obj in na %}
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="frontside">
+                    <div class="card frontcard">
+                        <div class="card-body text-center">
+                            <p><img class=" img-fluid" src="{{ na_obj.image.url }}" alt="{{ na_obj.name }}"></p>
+                            <h4 class="card-title">{{ na_obj.name }}</h4>
+                            <p class="card-text">{{ na_obj.current_company }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}

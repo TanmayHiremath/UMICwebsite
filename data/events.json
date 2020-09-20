@@ -1,0 +1,46 @@
+[
+{
+    "model": "events.event",
+    "pk": 1,
+    "fields": {
+        "title": "Techconnect and RND expo",
+        "month_yr": "20xx",
+        "content": "As Tech team of the institute and our innovative work herein UMIC, we showcase our work at techconnect and RND expo. It\u2019s been our pleasure to explain our work to Professors and other students of IIT Bombay. The enthusiasm of the students to get to know about our projects increased our motivation in doing so. We also got some new ideas and questions regarding our projects which made us rethink and explore new areas in the same field. We Showcased our projects in RND 20xx and Techconnect 20yy. Our senior Name was the Main presenter in RND 20xx and another name in techconnect 20yy. The main projects that we presented were the project name and another project name. We told them about our idea of making things autonomous. We also told them about the competitions in which we have taken part so far."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 2,
+    "fields": {
+        "title": "Ted Talk JPMC",
+        "month_yr": "June 2018",
+        "content": "In June 2018, Atharva Jaipurkar, Sumanth Kandala and Ritesh Goru from the Unmesh Mashruwala Innovation Cell (UMIC) represented IIT Bombay at the Milennovation TED Talks event organized as a part of the \u201cSpirit of Innovation Week\u201d at J.P. Morgan Chase, India. The event was live-streamed at J.P. Morgan Chase offices nationwide and was attended by over 2000+ employees. As a part of this event, our team members shared the wonderful advances in technology achieved by young engineers, including the innovative projects of UMIC particularly in the field of autonomous robots. Furthermore, they presented the driverless car technology of SeDriCa - a fully autonomous car for the Indian road conditions and XXX (Insert name of IARC robot which you think sounds best) - a semi-autonomous drone designed to perform surveillance and XXX (Add one key term) tasks."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 3,
+    "fields": {
+        "title": "Summer induction 2018",
+        "month_yr": "Summers of 2018",
+        "content": "Summer induction programme was a technical lecture series conducted by members of UMIC for the students of IIT Bombay in summers of 2018. This lecture series which spanned over a week was attended by 150+ students. Covering topics right from mechatronics to computer vision, this series aimed at developing technical intuition among attendees in all major fields of robotics and automation. Starting with mechatronics, the basic questions like \u201cHow to build a robot?\u201d, \u201cWhat all things should I keep in mind while building a bot?\u201d, \u201cWhat are the basic design techniques?\u201d, \u201cWhat are the basic accessible manufacturing techniques? \u201d were answered in this lecture. Following lecture on electrical components and circuit design built on this basic mechanical design and taught what components are needed to run these machines and how to integrate them with the mechanical skeleton.\r\n\r\n\r\n Later lectures about motion planning, deep learning and image processing explained the novel concepts involved in the automation of built robot, incorporating various sensors and processing their data to build AI into our robot. Basics of motion planning were covered with an intuitive introduction to algorithms like A* and hybrid-A* for path planning of vehicle. Deep learning lecture developed the ideas that machines use to learn tasks when trained and made attendees familiar with various techniques used for the same. Image processing lecture focused on various techniques and filters applied on an image to do crazy unimaginable things we could do with a simple RGB image. \r\nAll in all, this series was a complete journey from the basics of mechanics to inclusion of AI for building our robot which was a great experience for audience and for the presenters."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 4,
+    "fields": {
+        "title": "Aerial Robotics Workshop",
+        "month_yr": "- May 2020",
+        "content": "In collaboration with Aeromodelling Club, IIT Bombay UMIC organized an Aerial Robotics workshop in collaboration with Aeromodelling Club, IIT Bombay. It was attended by 100+ students from various departments. Attendees were exposed to various concepts related to robotics and motion planning over a period of 3 weeks. It started with an introduction to the mechanics of flight and the design of quadrotor flying robots. Eventually, students were able to develop dynamic models, derive PID based controllers, and synthesize planners for operating in three-dimensional environments and implement it using MATLAB simulation. This workshop laid the foundation for control theory. Students were evaluated on the basis of various assignments and eligible students were certified for completing the workshop.\r\n Later lectures about motion planning, deep learning and image processing explained the novel concepts involved in the automation of built robot, incorporating various sensors and processing their data to build AI into our robot. Basics of motion planning were covered with an intuitive introduction to algorithms like A* and hybrid-A* for path planning of vehicle. Deep learning lecture developed the ideas that machines use to learn tasks when trained and made attendees familiar with various techniques used for the same. Image processing lecture focused on various techniques and filters applied on an image to do crazy unimaginable things we could do with a simple RGB image. \r\nAll in all, this series was a complete journey from the basics of mechanics to inclusion of AI for building our robot which was a great experience for audience and for the presenters."
+    }
+},
+{
+    "model": "events.image",
+    "pk": 5,
+    "fields": {
+        "property": 4,
+        "image": "events/aerial_robotics_hJ0tlpi.png"
+    }
+}
+]

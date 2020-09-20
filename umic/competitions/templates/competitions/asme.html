@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style_comp.css' %}">
+
+
+<div class="container">
+      <img src="{% static 'img/asme_logo.jpg' %}"  class="display-4 my-4 text-center" style="width: 400px; max-width: 80vw;">
+      <div style="line-height: 1.8;" class="lead font-italic mb-4"> "At the bottom, Robotics is about us. It is the discipline of emulating our lives, of wondering how we work."" Working towards bringing together people having similar motives is the ASME-SDC. ASME stands for the American Society of Mechanical Engineers. It organizes the Student Design Challenge(SDC). The problem statement is carefully devised from real-life applications. Each team is expected to ideate, design, construct, and operate a prototype that provides solutions to all these intricate problem statements stated. The qualifiers are conducted in the Asia Pacific region, with the winners of qualifiers participating in the US finals. Our freshman team participates in this competition because we believe that SDC builds the fundamentals and technological mindset required for the tech industry's advancement. It assists in understanding the basic working and structure of complex mechatronics systems. As an outcome of SDC, participants are inspired to come up with new innovative projects, also providing them with a broad spectrum of knowledge in the field of robotics and control systems."
+      </div>
+
+      <h1 class="mb-4">Achievements:</h1>
+      <h5 style="clear: both;" class="font-italic font-weight-bold">ASME-SDC 2019:</h5>
+      <img id="asme1" src="{% static 'img/asme1.jpg' %}">
+      <p> We were crowned as the champions in the Asia-Pacific region.
+            The problem statement asked the participating teams to build a robot that could pick-up 16 balls (with their
+            size varying from a Table Tennis ball to a Basketball) placed on top of 20 cm high PVC pipes and place them
+            in a 50cm * 50cm area without knocking the ball off its stand to the ground outside the above-described area
+            within a short amount of time.
+            The team with the maximum number of points would win the round.
+            Eventually, we made it to the top in the Asia-Pacific region.
+            Some of the most innovative design approaches used in this bot were the use and unconventional orientation
+            of "mecanum wheels" for enhanced degrees of freedom of the robot as well as for the efficient movement of
+            the robot over different types of surfaces, "forklift mechanism" for picking and storing the balls with
+            pretty good speed and arm dropping mechanism for placing the balls in the above-mentioned area.
+      </p>
+
+      <div class="text-center">
+            <img id="asme2" src="{% static 'img/asme2.jpg' %}"></div>
+      <br><br>
+      <h5 style="clear: both;" class="font-italic font-weight-bold">ASME-SDC 2017:</h5>
+      <div id="video" class="text-center container">
+            <div class="embed-responsive embed-responsive-16by9" style="border-radius: 10px;">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-jko4PiWYxo?rel=0" allowfullscreen="true"></iframe>
+            </div>
+      </div>
+      <p> This year, we were crowned as the champions in the Asia-Pacific region as well as the World Champions. The problem statement asked the participating teams to build a multifunctional mobile robot that could perform the following five tasks:</p>
+            <div class="row">
+            <div class="col-md-6">
+            <p>
+            <ul>      
+            <li><p>Sprint: Touch a wall 10 meters away and return to start.</p>
+            <li><p>Throw: Launch a tennis ball along an axis.</p>
+            <li><p>Climb: Climb and descend a set of three steps.</p>
+            </ul>
+            </p>
+            </div>
+            <div class="col-md-6">
+            <p>
+            <ul>
+            <li><p>Lift: Lift a weight vertically.</p>
+            <li><p>Hit: Hit a golf ball from the ground.</p>
+            </ul>
+            </p>
+            </div>
+            </div>
+            <p>
+            <img id="asme3" src="{% static 'img/asme3.jpg' %}">
+            We achieved some great results in the world finals, Sprint: PID control and IMU-based small, fast car(20kmph) was used for completing this task. We completed the task in 7 seconds and secured 1st position. Climb: The rocker-bogie mechanism was used for the robot's fast and efficient motion while performing this task. We completed the task in 15 seconds and secured 3rd position. Lift: Scissor mechanism along with ball screw mechanism (which were capable of lifting heavy weights (80-100 kgs) upto the height of 1.3 m) were used to complete this task. We managed to lift a weight of 87 kg upto a height of 120 cm and ended up securing 1st position. Throw: High RPM(4000) Low torque motor along with rubber rollers with a gap slightly less than the tennis ball diameter was used to throw the tennis ball upto ranges of 40-50m efficiently. We managed to throw the tennis ball approximately 45 m far and ended up securing 2nd position. Hit: The mechanism used for completing this task involved the use of a high-speed motor connected to a hit rod. Besides this, the hit angle was optimized extensively for increasing the range upto 30m. We managed to hit the golf ball approximately 30 m far and ended up securing 1st position. One of the most innovative design approaches used in this bot was the use of the "Rocker-Bogie model" for completing the Climb task of the Robot Pentathlon.
+      </p>
+
+      <div class="text-center">
+            <img id="asme4" src="{% static 'img/asme4.jpg' %}"></div>
+      <br><br>
+      <h5 style="clear: both;" class="font-italic font-weight-bold"> ASME-SDC 2013:</h5>
+
+      <p>The competition aimed to design a remotely-controlled, proof-of-concept vehicle for inspection purposes. The vehicle was capable of negotiating around obstacles, both in getting to the inspection points and in bringing the sensor back to the designated return area. The team from UMIC, IIT Bombay, were crowned as the champions in the Asia-Pacific region. We went on to participate in the world finals held at ASME's International Mechanical Engineering Congress and Exposition (IMECE) and secured the 2nd position.</p>
+      <img id="asme5" src="{% static 'img/asme5.jpg' %}">
+      <img id="asme6" src="{% static 'img/asme6.jpg' %}">
+      <br><br>
+      <h5 style="clear: both;" class="font-italic font-weight-bold">ASME-SDC 2012:</h5>
+      <p>The Problem was known as the “Energy Relay”, which challenged students to apply the basic principles of alternative energy in the design of four self-propelled devices, three of which were capable of transferring energy to trigger motion in subsequent devices positioned on a 12-meter course. After being declared as the champions in the Asia-Pacific region, the team moved on to the world finals and secured 2nd position.
+      </p>
+      <img id="asme7" src="{% static 'img/asme7.jpg' %}">
+      <img id="asme8" src="{% static 'img/asme8.jpg' %}">
+      <div style="clear: both;"></div>
+</div>
+{% endblock %}

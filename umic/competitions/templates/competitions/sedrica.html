@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style_comp.css' %}">
+<div class="container-fluid bg-light pb-4 mb-3">
+      <img src="{% static 'img/sedrica_transparent.png' %}"  class="display-4 text-center" style="width: 500px; max-width: 80vw;">
+      <div style="line-height: 1.8;" class="lead font-italic mb-4 container"> In this era of artificial intelligence and automation, rapid technology
+            advancements have ensured that self-driving cars are no longer limited to science fiction. The team SeDriCa
+            aims to develop India's first self-driving car, trying to achieve Level 5 Autonomy, capable of autonomous
+            driving under Indian Road Conditions. From efficient performance to safety considerations, we plan to cover
+            them all!
+      </div>
+      </div>
+      <div class="container" >
+
+      <div id="video" class="text-center container">
+            <div class="embed-responsive embed-responsive-16by9" style="border-radius: 10px;">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8lNKjX0-RKY?rel=0" allowfullscreen="true"></iframe>
+            </div>
+      </div>
+
+      <h1 class="mb-4" style="margin-top:100px;">Competitions:
+      </h1>
+      <h5 class="font-italic font-weight-bold">Mahindra RISE Challenge:
+      </h5>
+      <p>After being recognized as the overall winners in IGVC 2017, the team decided to step up the game and started
+            working on an actual car for the Mahindra RISE Challenge. The Challenge envisaged developing a working unit
+            of a ‘driverless car’ for Indian conditions under an intra-city situation on paved roads. As a part of the
+            competition, the team launched India's first successful prototype of a driverless car. The team received a
+            Mahindra E2o model to test its driverless car technology which was given to the top 11 teams out of 259.
+      </p>
+      <img id="sedrica1" src="{% static 'img/car1.jpg' %}"  class="display-4 my-4 text-center" style="width: 500px; max-width: 80vw;">
+      <p>
+            The team has been divided into various subsystems, keeping in mind the various requirements of the project.
+            These include Controls, Path Planning, Mechanical Design, Parking, Computer Vision, Sensors, Object
+            Detection, and Depth Estimation.</p>
+      <p>
+            The mechanical subsystem includes making modifications to the car design to cater to the various
+            requirements to make the car autonomous. This includes effectively designing mounts for various sensors,
+            keeping in mind the weight reduction and proper placing of the sensors.</p>
+      <p>
+            Environmental perception includes the task of observing and understanding the environment of the ego
+            vehicle. This includes the tasks of semantic segmentation (to classify and detect roads, lanes, streets,
+            traffic lights, etc.), depth estimation (to be able to make decisions about the car movement), and obstacle
+            avoidance (to be able to ensure safe driving). We have used various Image Processing and Machine Learning
+            techniques to tackle these issues. Currently, we are working on a Multi-task Learning model to be able to
+            achieve the depth and the obstacle avoidance information simultaneously. We also have a dedicated subsystem
+            which aims at the detection of parking areas for executing the parking manoeuvre. After detecting the
+            obstacles present in the surrounding, an essential task is to predict the position of the vehicle in the
+            detected environment accurately which is done using various sensors mounted on the vehicle. The motion and
+            velocity planning is done taking all of this into account to take optimum and safe decisions, also ensuring
+            a smooth drive!
+      </p>
+      <img id="sedrica2" src="{% static 'img/car2.jpg' %}"  class="display-4 my-4 text-center" style="width: 500px; max-width: 80vw;">
+      
+      <p>
+            The stereo camera, the Lidars, and the radars are used to detect the vehicle surroundings such as the road,
+            various traffic signs, static and dynamic objects, etc. The path planning subsystem takes the detected path
+            and generates a practical path for motion. We are currently implementing path planning algorithms like RRT*
+            and A*. We are also in the process of exploring Reinforcement Learning based Path Planning to do the same.
+            We are currently working on the Non-Linear Model Predictive Control with Linear-Quadratic Regulator (LQR) as
+            a cost function for motion planning. Under the control subsystem, we predict optimized motion for the car
+            based on the path predicted by the path planner.</p>
+      <p>
+            Right now, the team is working remotely to develop the various aspects of the car, including Controls,
+            Motion Planning, Perception, and Localisation. The developed software will be tested as soon as we will be
+            able to resume offline work.
+      </p>
+      <a href="http://www.igvc.org/"><h5 class="font-italic font-weight-bold" style="color: black;">Intelligent Ground Vehicle Competition:</h5></a>
+      <img id="sedrica3" src="{% static 'img/igvc1.jpg' %}"  class="display-4 my-4 text-center" style="width: 500px; max-width: 80vw;">
+
+      <p>IGVC is an annual international robotics competition for teams of undergraduate and graduate students
+            co-sponsored by Association for Unmanned Vehicle Systems International (AUVSI). The competition demands a
+            fully autonomous unmanned ground robotic vehicle capable of negotiating around an outdoor obstacle course
+            under a prescribed time under certain speed constraints, remaining within the lane, negotiating flags, and
+            avoiding the obstacles on the course.</p>
+      <p>
+            The team was subdivided into subsystems, keeping in mind the mechanical, electrical, and software aspects.
+            The mechanical subsystem focussed on design aspects of the prototype, keeping in mind the modularity,
+            stability, compactness, and sensor requirements. The electrical subsystem ensured proper electromagnetic
+            wire shielding and requirements for mounting the onboard PC. The software aspects included colour channel
+            extraction, high-speed motion planning, and integrated ROS implementations for efficient utilization of the
+            system. This included perception for lanes, localization using GPS and IMU, and navigation. Initially,
+            simulations were carried out on Gazebo before testing the software on the actual prototype.
+      </p>
+      <img id="sedrica4" src="{% static 'img/igvc2.jpg' %}"  class="display-4 my-4 text-center" style="width: 500px; max-width: 80vw;">
+
+      <p>
+            The team globally stood fourth in the basic and fifth in the advanced Auto-Nav challenge in 2016.
+            Improvising on the various aspects of the prototype, next year, the team emerged as the overall winners in
+            IGVC 2017 in the pool of 29 participating teams from 5 different countries, securing first place in the
+            Autonomous Navigation Challenge, second place in the Design Challenge, second place in the Interoperability
+            Profiles Challenge. This has been one of the best performances by any Asian team in this competition to
+            date.
+      </p>
+      
+</div>
+{% endblock %}

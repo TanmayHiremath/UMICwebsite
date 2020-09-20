@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+    {{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/gallery_style.css' %}">
+    <div class="row" id="intro_choices">
+        <div class="col-sm-12 col-md-6">
+        <a class="lightbox text-center" href="../gallery/#achievements" >
+            <img src="{% static 'img/gallery-03.jpg' %}" alt="Achievements" id="left">
+        </a>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6">
+            <a class="lightbox" href="../gallery/#robots">
+                <img src="{% static 'img/gallery-02.jpg' %}" alt="Robots" id="right" >
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <a class="lightbox" href="../gallery/#team">
+                <img src="{% static 'img/gallery-01.jpg' %}" alt="Team" id="left">
+            </a>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <a class="lightbox" href="../gallery/#miscellaneous">
+                <img src="{% static 'img/gallery-04.jpg' %}" alt="Miscellaneous" id="right" >
+            </a>
+        </div>
+
+    </div>
+
+
+{% endblock %}

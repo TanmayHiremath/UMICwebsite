@@ -1,0 +1,237 @@
+    {% extends "team/team.html" %}
+
+{% block team %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/team_members.css' %}">
+<section id="team" class="pb-5">
+    <div class="container bg-light">
+        <h3 class="section-title bg-dark py-3">Team Leads</h3>
+        <div class="row justify-content-center">
+            {% for oc_obj in oc %}
+            <!-- oc -->
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="image-flip">
+                    <div class="mainflip flip-0">
+                        <div class="frontside border border-dark rounded">
+                            <div class="card frontcard">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="{{ oc_obj.image.url }}" alt="{{ oc_obj.name }}"></p>
+                                    <h4 class="card-title">{{ oc_obj.name }}</h4>
+                                    <p class="card-text">{{ oc_obj.subsystem }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside border border-dark rounded">
+                            <div class="card backcard">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">{{ oc_obj.name }}</h4>
+                                    <p class="card-text">{{ oc_obj.yr_dept }}</p>
+                                    <p class="card-text">Team: {{ oc_obj.team }}</p>
+                                    <p class="card-text">Interests: {{ oc_obj.interests }}</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ oc_obj.fb }}">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ oc_obj.linkedin }}">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="mailto:{{ oc_obj.email }}">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row justify-content-center">
+            {% for tm_obj in tm1 %}
+            <!-- Team member -->
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="image-flip">
+                    <div class="mainflip flip-0">
+                        <div class="frontside border border-dark rounded">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="{{ tm_obj.image.url }}" alt="{{ tm_obj.name }}"></p>
+                                    <h4 class="card-title">{{ tm_obj.name }}</h4>
+                                    <p class="card-text">{{ tm_obj.subsystem }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside border border-dark rounded">
+                            <div class="card backcard">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">{{ tm_obj.name }}</h4>
+                                    <p class="card-text">{{ tm_obj.yr_dept }}</p>
+                                    <p class="card-text">Team: {{ tm_obj.team }}</p>
+                                    <p class="card-text">Interests: {{ tm_obj.interests }}</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ tm_obj.fb }}">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ tm_obj.linkedin }}">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="mailto:{{ tm_obj.email }}">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container bg-light">
+        <h3 class="section-title bg-dark py-3">Team Members</h3>
+        <div class="row justify-content-center">
+            {% for tm_obj in tm %}
+            <!-- Team member -->
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="image-flip">
+                    <div class="mainflip flip-0">
+                        <div class="frontside border border-dark rounded">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="{{ tm_obj.image.url }}" alt="{{ tm_obj.name }}"></p>
+                                    <h4 class="card-title">{{ tm_obj.name }}</h4>
+                                    <p class="card-text">{{ tm_obj.subsystem }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside border border-dark rounded">
+                            <div class="card backcard">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">{{ tm_obj.name }}</h4>
+                                    <p class="card-text">{{ tm_obj.yr_dept }}</p>
+                                    <p class="card-text">Team: {{ tm_obj.team }}</p>
+                                    <p class="card-text">Interests: {{ tm_obj.interests }}</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ tm_obj.fb }}">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ tm_obj.linkedin }}">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="mailto:{{ tm_obj.email }}">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container bg-light">
+        <h3 class="section-title bg-dark py-3">Student Advisors</h3>
+        <div class="row justify-content-center">
+            {% for sa_obj in sa %}
+            <!-- sa -->
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="image-flip">
+                    <div class="mainflip flip-0">
+                        <div class="frontside border border-dark rounded">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="{{ sa_obj.image.url }}" alt="{{ sa_obj.name }}"></p>
+                                    <h4 class="card-title">{{ sa_obj.name }}</h4>
+                                    <p class="card-text">{{ sa_obj.subsystem }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside border border-dark rounded">
+                            <div class="card backcard">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">{{ sa_obj.name }}</h4>
+                                    <p class="card-text">{{ sa_obj.yr_dept }}</p>
+                                    <p class="card-text">Team: {{ sa_obj.team }}</p>
+                                    <p class="card-text">Interests: {{ sa_obj.interests }}</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ sa_obj.fb }}">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="{{ sa_obj.linkedin }}">
+                                                <i class="fa fa-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="social-icon text-xs-center" target="_blank"
+                                                href="mailto:{{ sa_obj.email }}">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="container bg-light">
+        <h3 class="section-title bg-dark py-3">Faculty Advisors</h3>
+        <div class="row justify-content-center">
+            {% for fac_obj in fac %}
+            <!-- Team member -->
+            <div class="col-6 col-sm-4 col-md-3 p-1 m-0">
+                <div class="frontside border border-dark rounded">
+                    <div class="card frontcard">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">{{ fac_obj.division }}</h4>
+                            <p><img class=" img-fluid" src="{{ fac_obj.image.url }}" alt="{{ fac_obj.name }}"></p>
+                            <h4 class="card-title" style="font-size: 15pt;">Prof. {{ fac_obj.name }}</h4>
+                            <p class="card-text" style="font-size: 12pt;">{{ fac_obj.dept }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

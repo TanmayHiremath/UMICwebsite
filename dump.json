@@ -1,0 +1,3877 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "sponsors",
+        "model": "sponsor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "team",
+        "model": "team_current"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "team",
+        "model": "property"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "team",
+        "model": "propertyimage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "team",
+        "model": "pastteam"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "team",
+        "model": "studentadvisor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "team",
+        "model": "teammember"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "team",
+        "model": "pastoc"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "team",
+        "model": "oc"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "team",
+        "model": "currentteam"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "team",
+        "model": "faculty"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "team",
+        "model": "notablealumni"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "gallery",
+        "model": "image"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "projects",
+        "model": "project"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "events",
+        "model": "event"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "events",
+        "model": "image"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "events",
+        "model": "announcement"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1qg2lv9sjpjpbgkd09t7pm1hy0ltyrfb",
+    "fields": {
+        "session_data": "ZGRkNjI2YjUwODBmODExMWUwMjE3N2FlNDc1ZTE5YTdkYjRiMzZmOTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkMTAyZmI3OTNlZDMxZmExMTlhNzU3MmE3ODFlZTQzOTkwODE0Y2FhIn0=",
+        "expire_date": "2020-07-03T13:52:22.959Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "d6d080f1y4qw5kxjrh7b3471ahrk74pf",
+    "fields": {
+        "session_data": "ZGRkNjI2YjUwODBmODExMWUwMjE3N2FlNDc1ZTE5YTdkYjRiMzZmOTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkMTAyZmI3OTNlZDMxZmExMTlhNzU3MmE3ODFlZTQzOTkwODE0Y2FhIn0=",
+        "expire_date": "2020-06-18T19:56:11.007Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "j1xwfccyq919m1s1n3xnfib0tgyk5ytq",
+    "fields": {
+        "session_data": "NDFhZjY0ZGIyMTE5NDBkMGQyZmUzMGE1NjUxMjc0ZTg0NDIyMDg5MTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5MzdiMjllZTYxYzk4YTZhNjY4ODI0YmFjYTFhZTNhODk0OWE1ZjZmIn0=",
+        "expire_date": "2020-07-20T22:57:49.542Z"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 11,
+    "fields": {
+        "name": "Nvidia",
+        "url": "https://www.nvidia.com/en-in/",
+        "image": "sponsors/13_uba6kc7.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 12,
+    "fields": {
+        "name": "Velodyne LiDAR",
+        "url": "https://velodynelidar.com",
+        "image": "sponsors/14_5SZ03kQ.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 13,
+    "fields": {
+        "name": "Reliance Industries Limited",
+        "url": "http://www.ril.com",
+        "image": "sponsors/15.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 14,
+    "fields": {
+        "name": "Ouster",
+        "url": "https://www.ouster.io",
+        "image": "sponsors/16.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 15,
+    "fields": {
+        "name": "Epsilon",
+        "url": "http://epsilonfiberoptics.com",
+        "image": "sponsors/epsilon.jpg"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 16,
+    "fields": {
+        "name": "Sick",
+        "url": "https://www.sick.com/in/en//",
+        "image": "sponsors/2.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 17,
+    "fields": {
+        "name": "Texas Instruments",
+        "url": "http://www.ti.com",
+        "image": "sponsors/3.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 18,
+    "fields": {
+        "name": "ifm electronic",
+        "url": "https://www.ifm.com",
+        "image": "sponsors/4.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 19,
+    "fields": {
+        "name": "autonoumouStuff",
+        "url": "http://www.autonomoustuff.com",
+        "image": "sponsors/5_eZrcGnT.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 20,
+    "fields": {
+        "name": "Roboteq",
+        "url": "http://www.roboteq.com/index.php",
+        "image": "sponsors/6.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 21,
+    "fields": {
+        "name": "asbsystems",
+        "url": "http://asbsystems.co.in",
+        "image": "sponsors/7.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 22,
+    "fields": {
+        "name": "Vectornav",
+        "url": "http://www.vectornav.com",
+        "image": "sponsors/8.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 23,
+    "fields": {
+        "name": "Sparton",
+        "url": "http://sparton.com",
+        "image": "sponsors/9_gNTwac3.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 24,
+    "fields": {
+        "name": "maxon motor",
+        "url": "http://www.maxonmotor.in/maxon/view/content/index",
+        "image": "sponsors/10.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 25,
+    "fields": {
+        "name": "Continental",
+        "url": "http://www.continental-automotive.com",
+        "image": "sponsors/11_zCaSWLY.jpg"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 26,
+    "fields": {
+        "name": "Sica",
+        "url": "http://www.sica.in/Index.aspx",
+        "image": "sponsors/12.PNG"
+    }
+},
+{
+    "model": "team.currentteam",
+    "pk": 1,
+    "fields": {
+        "year": 2020,
+        "group_photo": "current_team/default.png"
+    }
+},
+{
+    "model": "team.oc",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Harshal Kataria",
+        "email": "harshalkataria14@gmail.com",
+        "image": "team/current_team/OC/IMG_20190302_140222_-_Harshal_Kataria.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Overall Coordinator",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Robotics, Autonomous Vehicles, UAVs and Biomimicry, Observational Learner, Sci-Fi lover and food nerd.",
+        "yr_dept": "4th year, Aerospace  Engineering"
+    }
+},
+{
+    "model": "team.oc",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Pranav Sunil Deo",
+        "email": "pranav@umiciitb.ac.in",
+        "image": "team/current_team/OC/rsz_img_20191225_071401_bokeh_-_pranav_deo.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Overall Coordinator",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Major technical interests in AI-driven systems, Computer Vision and robotics, Chess enthusiast.",
+        "yr_dept": "4th year, Civil Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Mridul Agarwal",
+        "email": "mridul407@gmail.com",
+        "image": "team/current_team/team_members/DSC02159_-_Mridul_Agarwal.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Deputy Team Leader",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Dynamics and controls of robotics systems, avid space enthusiast. Love to play tennis, drums and guitar.",
+        "yr_dept": "3rd year, Aerospace Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Rishab Khantwal",
+        "email": "rishabkhantwal11@gmail.com",
+        "image": "team/current_team/team_members/IMG_20191129_120435_-_Rishab_Khantwal.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Machine Learning and perception",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Interested in Data science,I like ML but i love DL.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 3,
+    "fields": {
+        "property": 1,
+        "name": "Pavan Kale",
+        "email": "kalepavan1234@gmail.com",
+        "image": "team/current_team/team_members/20200301_024445_-_Pavan_Kale.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Controls Subsystems Head",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Major interest in Technopreneurship. Love to travel and read books in free time.",
+        "yr_dept": "3rd year, MEMS"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 4,
+    "fields": {
+        "property": 1,
+        "name": "Kratik Bhadoriya",
+        "email": "kratikbhadoriya2001@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200623_150202__01_-_KRATIK_BHADORIYA.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Mechanical Subsystem",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Love to play football, basketball and a lots of  video games",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 5,
+    "fields": {
+        "property": 1,
+        "name": "Utkarsh Thakre",
+        "email": "17d10018@iitb.ac.in",
+        "image": "team/current_team/team_members/IMG_20200623_164048_-_Utkarsh_Thakre.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Head Mechatronics Subsystem",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Design & Modeling, Finite Element Analysis.",
+        "yr_dept": "4th year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 7,
+    "fields": {
+        "property": 1,
+        "name": "Harshit Garg",
+        "email": "hgarg9460@gmail.com",
+        "image": "team/current_team/team_members/my_pic_-_Harshit_Garg.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Mechanical designer",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "I am intrested in mechanical design amd data science. I love playing cricket and listening to music.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 8,
+    "fields": {
+        "property": 1,
+        "name": "Anshul Gupta",
+        "email": "anshulg825@gmail.com",
+        "image": "team/current_team/team_members/IMG_20190707_165858_-_Anshul_Gupta.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Object Tracking Leader and Computer Vision Member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Computer Vision and Autonomous Robotics. Love playing games, watching movies, trekking.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 9,
+    "fields": {
+        "property": 1,
+        "name": "Rohit Rushil",
+        "email": "rushil.rohit@gmail.com",
+        "image": "team/current_team/team_members/FB_IMG_1592808505964_-_rohit_rushil.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Computer Vision member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Perception abilities of autonomous systems, AI enthusiast. Love playing games like CSGO, Chess.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 10,
+    "fields": {
+        "property": 1,
+        "name": "Gagan Jain",
+        "email": "thesmilingsky1530@gmail.com",
+        "image": "team/current_team/team_members/dp_-_Gagan_Jain.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Controls Head and Computer Vision Member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Robotics, Computer Vision, Reinforcement Learning, Potterhead. You're always welcome to bring me pizza.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 11,
+    "fields": {
+        "property": 1,
+        "name": "Hitvarth Diwanji",
+        "email": "hitvarthdiwanji@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200622_164926_-_Hitvarth_Diwanji.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Path planning member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Artificial intelligence, coding , Mathematics. Love to play guitar, write poems and draw sketches.",
+        "yr_dept": "2nd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 12,
+    "fields": {
+        "property": 1,
+        "name": "Nihal Barde",
+        "email": "nihalbarde@gmail.com",
+        "image": "team/current_team/team_members/IMG_20191225_073113_Bokeh_-_Nil_Barde.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Team Lead",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Autonomous vehicles, Robotics",
+        "yr_dept": "4th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 13,
+    "fields": {
+        "property": 1,
+        "name": "Jennish Dharma J J",
+        "email": "jennishdharma@gmail.com",
+        "image": "team/current_team/team_members/IMG_20190825_153318_-_Jennish_Dharma.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Path Planning member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Machine learning enthusiast, AI driven automation and competitive coding. Play Badminton, Cricket, Chess.",
+        "yr_dept": "3rd year, Chemical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 14,
+    "fields": {
+        "property": 1,
+        "name": "Keerthan Ramesh",
+        "email": "keerthanr2000@gmail.com",
+        "image": "team/current_team/team_members/IMG_20191209_170427_Bokeh_-_Keerthan_Ramesh.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Localisation leader",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Robotics, autonomous systems and tinkering with tech. Love to play football, read books, travelling/hiking.",
+        "yr_dept": "3rd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 15,
+    "fields": {
+        "property": 1,
+        "name": "Kriti Agarwal",
+        "email": "kritiagarwal2014@gmail.com",
+        "image": "team/current_team/team_members/Screenshot_2020-07-12_at_7.41.02_PM_GUnDdQi.png",
+        "team": "SeDriCa",
+        "subsystem": "Object tracking member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Psychology and AI, A Potterhead, Binge Reader, Curious learner. Love Chatting and playing Tennis",
+        "yr_dept": "3rd year, Chemical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 16,
+    "fields": {
+        "property": 1,
+        "name": "C Nikhil",
+        "email": "challapalli.nikhil3@gmail.com",
+        "image": "team/current_team/team_members/IMG_20190228_144107_-_NIKHIL_C.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Path planning member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Speedcubing, running, algorithmic trading",
+        "yr_dept": "3rd year, Electrical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 17,
+    "fields": {
+        "property": 1,
+        "name": "Sreeraj SJ",
+        "email": "sreerajsj10@hotmail.com",
+        "image": "team/current_team/team_members/IMG_20200229_204839_-_Sreeraj_S_J.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Computer Vision and Lidars Head",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Always in the search for exotic cuisine",
+        "yr_dept": "4th year, Chemical"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 19,
+    "fields": {
+        "property": 1,
+        "name": "Harshil Naik",
+        "email": "harshil3004@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200622_100046_-_Harshil_Naik.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Controls Engineer",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Controls and Autonomous UAVs, Design Enthusiast, and  a big Book reader. Love to Travel to random places.",
+        "yr_dept": "2nd year, Aerospace Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 20,
+    "fields": {
+        "property": 1,
+        "name": "Hiya Gada",
+        "email": "hiyagada2001@gmail.com",
+        "image": "team/current_team/team_members/08a83bc1-95e9-4516-afa9-cb7df8e4c2ed_-_Hiya_Gada.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Mechanical Engineer",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Drone designing and control systems. I love to make music, read and write. A Philomath.",
+        "yr_dept": "2nd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 21,
+    "fields": {
+        "property": 1,
+        "name": "Yash Bhavsar",
+        "email": "yashbhavsar1205@gmail.com",
+        "image": "team/current_team/team_members/FB_IMG_1592894060321_-_Yash_Bhavsar.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "ML & Perception Member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Majorly interested in Machine Learning and Signal Processing. Love to play and watch cricket.",
+        "yr_dept": "2nd year, Electrical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 22,
+    "fields": {
+        "property": 1,
+        "name": "Mithil Vakde",
+        "email": "mvakde12@gmail.com",
+        "image": "team/current_team/team_members/IMG20200105070350_-_Mithil_Vakde.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Machine Learning member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Quantum computing systems and machine learning . Dancer, drummer ,volleball player, love reading novels.",
+        "yr_dept": "2nd year, Chemical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 23,
+    "fields": {
+        "property": 1,
+        "name": "Atharva Mete",
+        "email": "atharvamete12@gmail.com",
+        "image": "team/current_team/team_members/IMG20200302134912_-_Atharva_Mete.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Controls Member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Robotics and Aeromodelling. Like swimming, reading(especially about medieval history) and culinary arts.",
+        "yr_dept": "2nd year, Aerospace Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 24,
+    "fields": {
+        "property": 1,
+        "name": "Vijayant Monu Patel",
+        "email": "vijayantpatel1234@gmail.com",
+        "image": "team/default.png",
+        "team": "AeRoVe",
+        "subsystem": "Mechanical member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Like to make and explore cool mechanical models.  Love probability and logical reasoning. Footballer.",
+        "yr_dept": "2nd year, Mechanical Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 25,
+    "fields": {
+        "property": 1,
+        "name": "Bhuvan Aggarwal",
+        "email": "bhuvanaggarwal9@gmail.com",
+        "image": "team/current_team/team_members/IMG_20200119_140242_-_Bhuvan_Aggarwal.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Object tracking member",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "ML, full stack development, graphics, python, big time foodie, loves badminton and listening to music.",
+        "yr_dept": "2nd year, Civil Engineering"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 26,
+    "fields": {
+        "property": 1,
+        "name": "Jigyasu",
+        "email": "tajinup@gmail.com",
+        "image": "team/current_team/team_members/IMG_20190908_161254_905_-_Jigyasu_Chand.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Team Lead",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Aircraft | Photography | Music",
+        "yr_dept": "4th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.teammember",
+    "pk": 27,
+    "fields": {
+        "property": 1,
+        "name": "Jigyasu",
+        "email": "tajinup@gmail.com",
+        "image": "team/current_team/team_members/IMG_20190908_161254_905_-_Jigyasu_Chand_jd9zEln.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Team Lead",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Aircraft | Photography | Music",
+        "yr_dept": "4th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.studentadvisor",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Hardik Jain",
+        "email": "hardikjain3101@gmail.com",
+        "image": "team/current_team/student_advisors/IMG_20200228_125103988_-_Hardik_Jain.jpeg",
+        "team": "SeDriCa",
+        "subsystem": "Technical Advisor",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Major interests in Autonomous Systems, Computer Vision.",
+        "yr_dept": "5th year, Engineering Physics"
+    }
+},
+{
+    "model": "team.studentadvisor",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Trishant Roy",
+        "email": "trishantroy@gmail.com",
+        "image": "team/current_team/student_advisors/H9_Council_-_Trishant_Roy.jpeg",
+        "team": "AeRoVe",
+        "subsystem": "Technical Advisor",
+        "fb": "https://bootsnipp.com/snippets/92xNm",
+        "linkedin": "https://bootsnipp.com/snippets/92xNm",
+        "interests": "Wanna pursue research in Controls and Motion Planning in Autonomous Aerial Robotics.",
+        "yr_dept": "5th year, Energy Science and Engineering"
+    }
+},
+{
+    "model": "team.faculty",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "Amit Sethi",
+        "image": "team/current_team/faculty/amit-200x200.jpeg",
+        "dept": "Electrical Engineering Department, SeDriCa"
+    }
+},
+{
+    "model": "team.faculty",
+    "pk": 2,
+    "fields": {
+        "property": 1,
+        "name": "Dhwanil Shukla",
+        "image": "team/current_team/faculty/dhwanil_dp.jpeg",
+        "dept": "Aerospace Engineering Department, AeRoVe"
+    }
+},
+{
+    "model": "team.pastteam",
+    "pk": 1,
+    "fields": {
+        "years": "2015-2019"
+    }
+},
+{
+    "model": "team.pastoc",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "sdfkhjasd",
+        "image": "team/past_team/past_oc/default_n1c5o8t.png",
+        "current_company": null
+    }
+},
+{
+    "model": "team.notablealumni",
+    "pk": 1,
+    "fields": {
+        "property": 1,
+        "name": "sdkajlfh",
+        "image": "team/default.png",
+        "current_company": null
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 1,
+    "fields": {
+        "img": "gallery_items/benches.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 2,
+    "fields": {
+        "img": "gallery_items/bridge.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 3,
+    "fields": {
+        "img": "gallery_items/coast.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 4,
+    "fields": {
+        "img": "gallery_items/park.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 5,
+    "fields": {
+        "img": "gallery_items/rails.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 6,
+    "fields": {
+        "img": "gallery_items/rocks.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 7,
+    "fields": {
+        "img": "gallery_items/sky.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 8,
+    "fields": {
+        "img": "gallery_items/traffic.jpg"
+    }
+},
+{
+    "model": "gallery.image",
+    "pk": 9,
+    "fields": {
+        "img": "gallery_items/tunnel.jpg"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 1,
+    "fields": {
+        "image": "models/fpga.jpg",
+        "name": "Interfacing touch screen with FPGA",
+        "content": "The main goal of this project is to interface a touch screen with the FPGA. A resistive four wire touch screen is used for the same. Texas instrument\u2019s ADS7843 serves as a touch screen controller which converts analog signals from touch screen to digital signal that later is provided as an input to the FPGA. Programming of the FPGA is done in Verilog HDL language. The board is provided with an independent programming platform Quartus II. The serial communication is established between the FPGA and the ADC using SPI serial bus interface."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 2,
+    "fields": {
+        "image": "models/solaruav.PNG",
+        "name": "Solar Powered Unmanned Aerial Vehicle",
+        "content": "Unmanned Aerial Vehicles, UAV in short, are defined as powered vehicles that can take off, fly and land with no onboard crew. They can either fly remotely (a ground pilot controls the UAV directly using some kind of remote control) as well as autonomously (a flight path is introduced into the UAV and it just follows it). In recent years, the level of interest in the development of fixed-wing UAVs for various missions has risen significantly. A crucial issue concerning these aircraft is their high power consumption compared to their limited energy storage capability."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 3,
+    "fields": {
+        "image": "models/snake.PNG",
+        "name": "Snake Bot",
+        "content": "Snake Robots have many degrees of freedom, which makes them extremely versatile and complex to control. This report presents modular snake robot, its electronic architecture and control. Inspired by biological snake, snake robot moves using cyclic motions called gaits. These cyclic motions directly control the snake robot\u2019s internal degrees of freedom which causes a net motion. Each mode of the robot is controlled by a sinusoidal oscillator with four parameters: amplitude, frequency, phase, and offset."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 4,
+    "fields": {
+        "image": "models/trajectory.PNG",
+        "name": "Trajectory Following Bot",
+        "content": "Here, we assume sensory pose estimation and that a path has been planned, that is consistent with the kinematic constraints of the vehicle. We then go on to develop simple linear state feedback laws and test and augment them for a variety of path complexities. In comparison to many previous systems, the steering control described here is simple, robust and effective due to the position tracking."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 5,
+    "fields": {
+        "image": "models/grip.PNG",
+        "name": "Universal Grip",
+        "content": "The design of the gripper would require an in depth study to identify the mechanisms that could be used, and which would be the most suitable.\r\nOnce the design was finalized, the manufacturing processes could be initiated, and the appropriate components made according to the given specifications.\r\nRequired changes could be made according to the dynamic issues faced in the design and manufacture.\r\nOnce the gripper was completed, the testing and analysis of the functionality of the gripper would need to be carried out extensively."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 6,
+    "fields": {
+        "image": "models/calligraphy.PNG",
+        "name": "Calligraphy Robot",
+        "content": "The Calligraphy Robot is a system that is able to accept inputs from a computer and write the specified characters using the exact positioning of the inputs. The machine is able to accept commands through a directly connected personal computer. The personal computer uses direct form of communication with the robot through USB or Serial link. The main controller subsystem is able to interpret and communicate the limits of any given alphabet, and it can directly control movement of the attachable end effector, which in this case is a pen.The framework of the system is set up by the mechanical subsystem which will allow for movement in the x, y, z axes.\r\nThe motion of the end effector in x and y axes is achieved by a belt drive operated by stepper motors and the motion in the z axis is controlled using a solenoid puller.\r\nThe system is powered by a lead-acid battery."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 7,
+    "fields": {
+        "image": "models/ip.PNG",
+        "name": "Road Modelling for Autonomous Vehicle",
+        "content": "Image processing is a method to convert an image into digital form and perform some operations on it, in order to get an enhanced image or to extract some useful information from it. It is a type of signal dispensation in which input is image, like video frame or photograph and output may be image or characteristics associated with that image. Usually Image Processing system includes treating images as two dimensional signals while applying already set signal processing methods to them. It is among rapidly growing technologies today, with its applications in various aspects of a business. Image Processing forms core research area within engineering and computer science disciplines too. Image processing basically includes the following three steps.\r\nImporting the image with optical scanner or by digital photography.\r\nAnalysing and manipulating the image which includes data compression and image enhancement and spotting patterns that are not to human eyes like satellite photographs.\r\nOutput is the last stage in which result can be altered image or report that is based on image analysis."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 8,
+    "fields": {
+        "image": "models/kinect.jpg",
+        "name": "Kinect Based Obstacle Avoider Robot",
+        "content": "Kinect based obstacle avoider robot uses the Kinect Xbox 360 sensor for getting the feed of the environment around the robot in 3D raw data. These raw data is transformed in RGB image with the help of CL NUI Kinect drivers.\r\nRobot gets the controlling signals after processing the RGB image using OpenCV libraries OpenCV is mostly used for image processing and object tracking. The IDEs used for writing programs are Visual Studio and Programmer\u2019s Notepad.\r\nThe Serial communication between compute and micro-controller was established using RS232 the micro-controller used is Atmega128"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 9,
+    "fields": {
+        "image": "models/psibot.PNG",
+        "name": "Indoor Navigation Robot",
+        "content": "The main objective of this robot is to autonomously travel in the premises and do basic tasks, avoiding any dynamic obstacle that comes in its path by relying on vision and wheel odometer information.\r\nAccomplishing this includes the following steps:\r\nBeing able to manually move the robot with the help of keyboard keys or a joystick using appropriate motors and a motor controller.\r\nBeing able to perform localisation. Kalman filters and particle filters are methods of localisation that can be employed.\r\nPerforming SLAM \u2013 Simultaneous Localisation and Mapping.\r\nPath planning using algorithms such as Dijkstra\u2019s and A-Star.\r\nEfficiently traversing this path by successfully implementing the Proportional Integral Derivative control."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 10,
+    "fields": {
+        "image": "models/backpackrover.PNG",
+        "name": "Backpack Rover",
+        "content": "A remote operated vehicle specifically for military purposes. A soldier can carry it in his backpack and deploy it to a location that is out of sight and enables the unit to avoid a rigged explosive device"
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 11,
+    "fields": {
+        "image": "models/elecatv.PNG",
+        "name": "Electric All Terrain Vehicle",
+        "content": "Designing purpose of this remote control EATV is to manufacture a vehicle prototype that provides help in supplying food in affected areas and to carry payload for army."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 12,
+    "fields": {
+        "image": "models/keyless.PNG",
+        "name": "Keyless door lock with home automation",
+        "content": "The goal of the project was to implement a smart home system by controlling the electronic devices at home remotely with a mobile phone and to receive alerts on movement around restricted premises. Using other technologies for communication, for example wireless communication using radio frequency, the Bluetooth technology or the Internet, could further extend the project."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 13,
+    "fields": {
+        "image": "",
+        "name": "Maze Solver 2018",
+        "content": "This competition was organized by the Electronics and robotics club of IIT Bombay and was participated by our freshman team with completed the competition with a record time. The competition demanded to solve a maze with walls and reach the goal in minimum time. The team built a small bot which was manufactured using Laser cutting with acrylic as the base material. The chassis had a front castor wheel with two rear motor-powered wheels so that it can turn about itself with a small turning radius if required. A 9v LIPO battery was attached for onboard power supply. Equipped with 3 ultrasonic sensors and Arduino UNO as brains, this bot was able to detect surrounding walls and remain in the middle of the lane and avoid any collision. Most important part of the framework design was to keep the ultrasonic sensors concrete in cases of collision as well as when the bot moved. Interconnecting and precise fit parts were used for this purpose. Left-first and backtracking algorithms were used to explore and solve the maze. PID was used to tune the turns and lane centring of the bot. This bot was built in a span of 1-week by a team of 4 freshmen."
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 14,
+    "fields": {
+        "image": "models/self_balancing_arm.png",
+        "name": "Self Balancing Arm",
+        "content": "The aim of this project was to build a Self-Levelling Arm that adjusts itself in a horizontal position, even in the presence of external disturbances, using a PID controller. The horizontal angular position was measured using an IMU (alternatively, a potentiometer attached to the fulcrum could be used). The angular error was passed onto an Arduino UNO, which used a PID loop to drive two Brushless motors at the ends, at varying speeds, that balanced the arm."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 1,
+    "fields": {
+        "title": "Techconnect and RND expo",
+        "month_yr": "20xx",
+        "content": "As Tech team of the institute and our innovative work herein UMIC, we showcase our work at techconnect and RND expo. It\u2019s been our pleasure to explain our work to Professors and other students of IIT Bombay. The enthusiasm of the students to get to know about our projects increased our motivation in doing so. We also got some new ideas and questions regarding our projects which made us rethink and explore new areas in the same field. We Showcased our projects in RND 20xx and Techconnect 20yy. Our senior Name was the Main presenter in RND 20xx and another name in techconnect 20yy. The main projects that we presented were the project name and another project name. We told them about our idea of making things autonomous. We also told them about the competitions in which we have taken part so far."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 2,
+    "fields": {
+        "title": "Ted Talk JPMC",
+        "month_yr": "June 2018",
+        "content": "In June 2018, Atharva Jaipurkar, Sumanth Kandala and Ritesh Goru from the Unmesh Mashruwala Innovation Cell (UMIC) represented IIT Bombay at the Milennovation TED Talks event organized as a part of the \u201cSpirit of Innovation Week\u201d at J.P. Morgan Chase, India. The event was live-streamed at J.P. Morgan Chase offices nationwide and was attended by over 2000+ employees. As a part of this event, our team members shared the wonderful advances in technology achieved by young engineers, including the innovative projects of UMIC particularly in the field of autonomous robots. Furthermore, they presented the driverless car technology of SeDriCa - a fully autonomous car for the Indian road conditions and XXX (Insert name of IARC robot which you think sounds best) - a semi-autonomous drone designed to perform surveillance and XXX (Add one key term) tasks."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 3,
+    "fields": {
+        "title": "Aerial Robotics Workshop",
+        "month_yr": "May 2020",
+        "content": "In collaboration with Aeromodelling Club, IIT Bombay UMIC organized an Aerial Robotics workshop in collaboration with Aeromodelling Club, IIT Bombay. It was attended by 100+ students from various departments. Attendees were exposed to various concepts related to robotics and motion planning over a period of 3 weeks. It started with an introduction to the mechanics of flight and the design of quadrotor flying robots. Eventually, students were able to develop dynamic models, derive PID based controllers, and synthesize planners for operating in three-dimensional environments and implement it using MATLAB simulation. This workshop laid the foundation for control theory.\r\nStudents were evaluated on the basis of various assignments and eligible students were certified for completing the workshop."
+    }
+},
+{
+    "model": "events.event",
+    "pk": 4,
+    "fields": {
+        "title": "Summer induction 2018",
+        "month_yr": "Summers of 2018",
+        "content": "Summer induction programme was a technical lecture series conducted by members of UMIC for the students of IIT Bombay in summers of 2018. This lecture series which spanned over a week was attended by 150+ students. Covering topics right from mechatronics to computer vision, this series aimed at developing technical intuition among attendees in all major fields of robotics and automation. Starting with mechatronics, the basic questions like \u201cHow to build a robot?\u201d, \u201cWhat all things should I keep in mind while building a bot?\u201d, \u201cWhat are the basic design techniques?\u201d, \u201cWhat are the basic accessible manufacturing techniques? \u201d were answered in this lecture. Following lecture on electrical components and circuit design built on this basic mechanical design and taught what components are needed to run these machines and how to integrate them with the mechanical skeleton.\r\n Later lectures about motion planning, deep learning and image processing explained the novel concepts involved in the automation of built robot, incorporating various sensors and processing their data to build AI into our robot. Basics of motion planning were covered with an intuitive introduction to algorithms like A* and hybrid-A* for path planning of vehicle. Deep learning lecture developed the ideas that machines use to learn tasks when trained and made attendees familiar with various techniques used for the same. Image processing lecture focused on various techniques and filters applied on an image to do crazy unimaginable things we could do with a simple RGB image. \r\nAll in all, this series was a complete journey from the basics of mechanics to inclusion of AI for building our robot which was a great experience for audience and for the presenters."
+    }
+},
+{
+    "model": "events.image",
+    "pk": 4,
+    "fields": {
+        "property": 3,
+        "image": "events/Aerial_robotics.png"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add sponsor",
+        "content_type": 7,
+        "codename": "add_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change sponsor",
+        "content_type": 7,
+        "codename": "change_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete sponsor",
+        "content_type": 7,
+        "codename": "delete_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view sponsor",
+        "content_type": 7,
+        "codename": "view_sponsor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add team_current",
+        "content_type": 8,
+        "codename": "add_team_current"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change team_current",
+        "content_type": 8,
+        "codename": "change_team_current"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete team_current",
+        "content_type": 8,
+        "codename": "delete_team_current"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view team_current",
+        "content_type": 8,
+        "codename": "view_team_current"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add property",
+        "content_type": 9,
+        "codename": "add_property"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change property",
+        "content_type": 9,
+        "codename": "change_property"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete property",
+        "content_type": 9,
+        "codename": "delete_property"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view property",
+        "content_type": 9,
+        "codename": "view_property"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add property image",
+        "content_type": 10,
+        "codename": "add_propertyimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change property image",
+        "content_type": 10,
+        "codename": "change_propertyimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete property image",
+        "content_type": 10,
+        "codename": "delete_propertyimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view property image",
+        "content_type": 10,
+        "codename": "view_propertyimage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add past team",
+        "content_type": 11,
+        "codename": "add_pastteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change past team",
+        "content_type": 11,
+        "codename": "change_pastteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete past team",
+        "content_type": 11,
+        "codename": "delete_pastteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view past team",
+        "content_type": 11,
+        "codename": "view_pastteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add student advisors",
+        "content_type": 12,
+        "codename": "add_studentadvisors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change student advisors",
+        "content_type": 12,
+        "codename": "change_studentadvisors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete student advisors",
+        "content_type": 12,
+        "codename": "delete_studentadvisors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view student advisors",
+        "content_type": 12,
+        "codename": "view_studentadvisors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add team members",
+        "content_type": 13,
+        "codename": "add_teammembers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change team members",
+        "content_type": 13,
+        "codename": "change_teammembers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete team members",
+        "content_type": 13,
+        "codename": "delete_teammembers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view team members",
+        "content_type": 13,
+        "codename": "view_teammembers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add past oc",
+        "content_type": 14,
+        "codename": "add_pastoc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change past oc",
+        "content_type": 14,
+        "codename": "change_pastoc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete past oc",
+        "content_type": 14,
+        "codename": "delete_pastoc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view past oc",
+        "content_type": 14,
+        "codename": "view_pastoc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add oc",
+        "content_type": 15,
+        "codename": "add_oc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change oc",
+        "content_type": 15,
+        "codename": "change_oc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete oc",
+        "content_type": 15,
+        "codename": "delete_oc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view oc",
+        "content_type": 15,
+        "codename": "view_oc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add current team",
+        "content_type": 16,
+        "codename": "add_currentteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change current team",
+        "content_type": 16,
+        "codename": "change_currentteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete current team",
+        "content_type": 16,
+        "codename": "delete_currentteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view current team",
+        "content_type": 16,
+        "codename": "view_currentteam"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add faculty",
+        "content_type": 17,
+        "codename": "add_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change faculty",
+        "content_type": 17,
+        "codename": "change_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete faculty",
+        "content_type": 17,
+        "codename": "delete_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view faculty",
+        "content_type": 17,
+        "codename": "view_faculty"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add notable alumni",
+        "content_type": 18,
+        "codename": "add_notablealumni"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change notable alumni",
+        "content_type": 18,
+        "codename": "change_notablealumni"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete notable alumni",
+        "content_type": 18,
+        "codename": "delete_notablealumni"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view notable alumni",
+        "content_type": 18,
+        "codename": "view_notablealumni"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add student advisor",
+        "content_type": 12,
+        "codename": "add_studentadvisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change student advisor",
+        "content_type": 12,
+        "codename": "change_studentadvisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete student advisor",
+        "content_type": 12,
+        "codename": "delete_studentadvisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view student advisor",
+        "content_type": 12,
+        "codename": "view_studentadvisor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add team member",
+        "content_type": 13,
+        "codename": "add_teammember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change team member",
+        "content_type": 13,
+        "codename": "change_teammember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete team member",
+        "content_type": 13,
+        "codename": "delete_teammember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view team member",
+        "content_type": 13,
+        "codename": "view_teammember"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add image",
+        "content_type": 19,
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change image",
+        "content_type": 19,
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete image",
+        "content_type": 19,
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view image",
+        "content_type": 19,
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add project",
+        "content_type": 20,
+        "codename": "add_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change project",
+        "content_type": 20,
+        "codename": "change_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete project",
+        "content_type": 20,
+        "codename": "delete_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view project",
+        "content_type": 20,
+        "codename": "view_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add event",
+        "content_type": 21,
+        "codename": "add_event"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change event",
+        "content_type": 21,
+        "codename": "change_event"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete event",
+        "content_type": 21,
+        "codename": "delete_event"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view event",
+        "content_type": 21,
+        "codename": "view_event"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add images",
+        "content_type": 22,
+        "codename": "add_images"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change images",
+        "content_type": 22,
+        "codename": "change_images"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete images",
+        "content_type": 22,
+        "codename": "delete_images"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view images",
+        "content_type": 22,
+        "codename": "view_images"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add image",
+        "content_type": 22,
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change image",
+        "content_type": 22,
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete image",
+        "content_type": 22,
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view image",
+        "content_type": 22,
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add anouncements",
+        "content_type": 23,
+        "codename": "add_anouncements"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change anouncements",
+        "content_type": 23,
+        "codename": "change_anouncements"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete anouncements",
+        "content_type": 23,
+        "codename": "delete_anouncements"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view anouncements",
+        "content_type": 23,
+        "codename": "view_anouncements"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+        "name": "Can add announcement",
+        "content_type": 23,
+        "codename": "add_announcement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+        "name": "Can change announcement",
+        "content_type": 23,
+        "codename": "change_announcement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+        "name": "Can delete announcement",
+        "content_type": 23,
+        "codename": "delete_announcement"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+        "name": "Can view announcement",
+        "content_type": 23,
+        "codename": "view_announcement"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$jI8C0wXrz42O$h5+66J55OxMiwlMIYUFRRR4zKBLU7j73KkNtnJyPDu0=",
+        "last_login": "2020-06-19T13:52:22.955Z",
+        "is_superuser": true,
+        "username": "UMIC",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-06-04T19:43:18.187Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-06-05T18:07:03.538Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Sponsor object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-06-05T18:08:39.112Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Sponsor object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-06-05T18:15:40.661Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Sponsor object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-06-05T18:16:49.429Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Sponsor object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-06-05T18:55:15.461Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Sponsor object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-06-05T18:55:18.846Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Sponsor object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-06-05T19:25:40.236Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Sponsor object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-06-05T19:35:21.673Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Sponsor object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-06-06T17:36:26.596Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Sponsor object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-06-06T17:39:16.472Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Sponsor object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-06-06T17:40:13.739Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Sponsor object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-06-06T17:47:36.894Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Sponsor object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-06-06T17:48:10.022Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Sponsor object (5)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-06-06T17:48:13.633Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Sponsor object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-06-06T17:48:18.118Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Sponsor object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-06-06T17:59:28.878Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Sponsor object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-06-06T18:55:43.586Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Sponsor object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-06-06T18:55:58.535Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Sponsor object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-06-06T18:56:16.877Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Sponsor object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-06-07T10:07:58.189Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Sponsor object (6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-06-07T10:08:09.702Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Sponsor object (7)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-06-07T10:08:12.863Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Sponsor object (9)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-06-07T10:08:17.669Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Sponsor object (10)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-06-07T10:08:20.316Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Sponsor object (8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-06-07T10:09:42.745Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Sponsor object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-06-07T10:11:06.694Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Sponsor object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-06-07T10:11:51.177Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Sponsor object (13)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-06-07T10:12:22.095Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Sponsor object (14)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-06-07T10:13:21.313Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Sponsor object (15)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-06-07T10:13:46.412Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Sponsor object (16)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-06-07T10:14:30.796Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Sponsor object (17)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-06-07T10:15:00.305Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Sponsor object (18)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-06-07T10:16:05.673Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Sponsor object (19)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-06-07T10:16:53.690Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Sponsor object (20)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-06-07T10:17:25.722Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Sponsor object (21)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-06-07T10:17:56.455Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "Sponsor object (22)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-06-07T10:18:17.602Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "Sponsor object (23)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-06-07T10:18:49.321Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "Sponsor object (24)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-06-07T10:19:18.181Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Sponsor object (25)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2020-06-07T10:19:41.226Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "Sponsor object (26)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2020-06-07T11:35:36.988Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Sponsor object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2020-06-07T11:35:46.484Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Sponsor object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2020-06-07T11:35:59.178Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Sponsor object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2020-06-07T11:36:09.925Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Sponsor object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2020-06-07T11:36:26.337Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Sponsor object (25)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2020-06-07T11:36:36.170Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Sponsor object (25)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2020-06-07T11:36:53.723Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Sponsor object (19)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2020-06-07T11:37:05.257Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Sponsor object (19)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2020-06-08T14:35:41.985Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"oc\", \"object\": \"OC object (1)\"}}, {\"added\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (1)\"}}, {\"added\": {\"name\": \"faculty\", \"object\": \"Faculty object (1)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2020-06-08T14:36:22.364Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "PastTeam object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"past oc\", \"object\": \"PastOC object (1)\"}}, {\"added\": {\"name\": \"notable alumni\", \"object\": \"NotableAlumni object (1)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2020-06-09T08:58:24.615Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (1)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2020-06-09T11:29:47.623Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "PastTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"past oc\", \"object\": \"PastOC object (1)\", \"fields\": [\"Email\", \"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2020-06-09T11:33:56.704Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2020-06-09T11:36:44.737Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"oc\", \"object\": \"OC object (2)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (1)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (2)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (3)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (4)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (5)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (6)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (7)\"}}, {\"added\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (2)\"}}, {\"added\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (3)\"}}, {\"added\": {\"name\": \"faculty\", \"object\": \"Faculty object (2)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2020-06-09T13:01:48.996Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2020-06-09T13:06:06.651Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "PastTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"past oc\", \"object\": \"PastOC object (1)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2020-06-09T18:58:19.987Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Project\", \"Subsystem\", \"Fb\", \"Linkedin\", \"Interests\"]}}, {\"deleted\": {\"name\": \"oc\", \"object\": \"OC object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2020-06-09T19:10:31.858Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Yr dept\"]}}, {\"deleted\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (None)\"}}, {\"deleted\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (None)\"}}, {\"deleted\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (None)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2020-06-09T19:12:24.928Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Subsystem\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2020-06-09T20:01:33.438Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (1)\", \"fields\": [\"Dept\"]}}, {\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (2)\", \"fields\": [\"Dept\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2020-06-09T20:49:32.922Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Group photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2020-06-09T21:02:03.370Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Group photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2020-06-19T14:42:32.012Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "Image object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2020-06-19T14:42:41.289Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "2",
+        "object_repr": "Image object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2020-06-19T14:42:46.967Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "3",
+        "object_repr": "Image object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2020-06-19T14:42:54.185Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "4",
+        "object_repr": "Image object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2020-06-19T14:42:59.999Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "5",
+        "object_repr": "Image object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2020-06-19T14:43:04.361Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "6",
+        "object_repr": "Image object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2020-06-19T14:43:09.304Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "7",
+        "object_repr": "Image object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2020-06-19T14:43:14.531Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "8",
+        "object_repr": "Image object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2020-06-19T14:43:18.625Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "9",
+        "object_repr": "Image object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2020-06-20T06:32:19.224Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Project object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2020-06-20T06:33:00.039Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "Project object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2020-06-20T06:33:48.943Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "3",
+        "object_repr": "Project object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2020-06-20T06:35:02.910Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "4",
+        "object_repr": "Project object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2020-06-20T06:36:27.145Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "5",
+        "object_repr": "Project object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2020-06-20T06:37:36.550Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "6",
+        "object_repr": "Project object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2020-06-20T06:38:38.127Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "7",
+        "object_repr": "Project object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2020-06-20T06:39:02.529Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "7",
+        "object_repr": "Project object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2020-06-20T06:39:53.080Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "8",
+        "object_repr": "Project object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2020-06-20T06:40:39.747Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "9",
+        "object_repr": "Project object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2020-06-20T19:05:25.655Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Project object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2020-06-20T19:05:51.024Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "Project object (2)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2020-06-20T19:06:06.018Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "3",
+        "object_repr": "Project object (3)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2020-06-20T19:06:18.603Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "4",
+        "object_repr": "Project object (4)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2020-06-20T19:07:00.453Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "5",
+        "object_repr": "Project object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2020-06-20T19:07:46.562Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "5",
+        "object_repr": "Project object (5)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2020-06-20T19:08:46.644Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "6",
+        "object_repr": "Project object (6)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2020-06-20T19:09:28.499Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "7",
+        "object_repr": "Project object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2020-06-20T19:10:37.412Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "9",
+        "object_repr": "Project object (9)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2020-06-20T19:11:19.862Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "9",
+        "object_repr": "Project object (9)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2020-06-20T19:27:02.463Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "9",
+        "object_repr": "Project object (9)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2020-06-20T19:56:43.048Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "10",
+        "object_repr": "Project object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2020-06-20T19:57:19.575Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "11",
+        "object_repr": "Project object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2020-06-20T19:58:07.821Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "12",
+        "object_repr": "Project object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2020-06-24T12:39:35.634Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"image\", \"object\": \"Image object (1)\"}}, {\"added\": {\"name\": \"image\", \"object\": \"Image object (2)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2020-06-24T14:14:59.092Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"image\", \"object\": \"Image object (3)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2020-06-24T14:21:52.115Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"image\", \"object\": \"Image object (1)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"image\", \"object\": \"Image object (2)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"image\", \"object\": \"Image object (3)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2020-07-07T22:28:17.558Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Name\", \"Email\", \"Project\", \"Subsystem\", \"Interests\", \"Yr dept\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2020-07-07T22:33:38.714Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Yr dept\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2020-07-07T22:43:04.092Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"oc\", \"object\": \"OC object (2)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2020-07-07T23:06:55.839Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (1)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (2)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (3)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (4)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (5)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (6)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (7)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (8)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (9)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (10)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (11)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2020-07-07T23:11:06.182Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (12)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (13)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (14)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2020-07-07T23:18:32.662Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (15)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (16)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (17)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (18)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (19)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (20)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2020-07-07T23:27:27.639Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (21)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (22)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (23)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (24)\"}}, {\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (25)\"}}, {\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (1)\", \"fields\": [\"Name\", \"Dept\"]}}, {\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (2)\", \"fields\": [\"Name\", \"Dept\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2020-07-07T23:28:52.761Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (1)\", \"fields\": [\"Dept\"]}}, {\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (2)\", \"fields\": [\"Dept\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2020-07-07T23:29:16.946Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2020-07-08T14:36:40.795Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"deleted\": {\"name\": \"team member\", \"object\": \"TeamMember object (None)\"}}, {\"added\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (1)\"}}, {\"added\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (2)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2020-07-08T14:36:45.687Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2020-07-08T14:53:41.034Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2020-07-08T14:54:59.739Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (2)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2020-07-08T15:02:00.951Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (1)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (8)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (9)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (10)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2020-07-08T15:04:08.756Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (9)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (10)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2020-07-08T15:05:24.878Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (10)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2020-07-08T15:07:19.530Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (9)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2020-07-08T15:18:07.814Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (11)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (13)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (14)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (15)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (19)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (20)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (22)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (23)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (24)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (25)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (2)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2020-07-08T15:22:50.152Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (15)\", \"fields\": [\"Interests\"]}}, {\"changed\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (2)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2020-07-08T15:24:00.935Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (8)\", \"fields\": [\"Interests\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2020-07-08T15:32:41.792Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Month yr\", \"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2020-07-08T15:32:47.777Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2020-07-08T15:33:06.873Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"image\", \"object\": \"Image object (None)\"}}, {\"deleted\": {\"name\": \"image\", \"object\": \"Image object (None)\"}}, {\"deleted\": {\"name\": \"image\", \"object\": \"Image object (None)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2020-07-08T15:37:27.267Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "Event object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2020-07-08T15:37:51.255Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "Event object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Month yr\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2020-07-08T15:44:33.952Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "3",
+        "object_repr": "Event object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"image\", \"object\": \"Image object (4)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2020-07-08T20:19:18.844Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "Event object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2020-07-08T20:19:49.778Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Event object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Month yr\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2020-07-08T20:24:47.017Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "13",
+        "object_repr": "Project object (13)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2020-07-08T20:28:41.253Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "14",
+        "object_repr": "Project object (14)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2020-07-10T22:53:30.802Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"oc\", \"object\": \"OC object (1)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"oc\", \"object\": \"OC object (2)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (19)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2020-07-10T23:03:17.125Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (1)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (2)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (4)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (5)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (20)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (22)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2020-07-10T23:13:54.447Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (3)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (7)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (9)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (10)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (11)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (12)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (13)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (14)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (23)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (2)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2020-07-10T23:18:52.445Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (25)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (1)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"faculty\", \"object\": \"Faculty object (2)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2020-07-10T23:22:32.129Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (8)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (16)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (17)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (21)\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"student advisor\", \"object\": \"StudentAdvisor object (1)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2020-07-10T23:27:53.404Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (26)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2020-07-10T23:27:54.493Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"team member\", \"object\": \"TeamMember object (27)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2020-07-12T14:13:08.325Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (15)\", \"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2020-07-12T14:13:31.768Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "CurrentTeam object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"team member\", \"object\": \"TeamMember object (15)\", \"fields\": [\"Image\"]}}]"
+    }
+}
+]

@@ -1,0 +1,46 @@
+.page {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: white;;
+  padding-bottom: 50px;
+}
+
+.pageTitle {
+  font-weight: 300;
+  font-size: 43px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pageTitle span {
+  font-weight: 400;
+  color: rgb(0, 171, 245);
+}
+.contactPageDetailCont {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.contactCard {
+  text-align: center;
+  width: 330px;
+  height: 270px;
+  background-color: rgba(0, 171, 245, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 25px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.contactCardTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}

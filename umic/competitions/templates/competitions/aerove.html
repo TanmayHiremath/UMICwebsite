@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block head_title %} {{title}} {% endblock %} {% block content %} {% load static %}
+<link rel="stylesheet" href="{% static 'css/style_comp.css' %}">
+<div class="container-fluid pb-4 mb-3" style="background: #262626;">
+    <img style="width: 500px; max-width: 80vw;" src="{% static 'img/aerove logo white-01.png' %}" class="display-4 py-5 text-center">
+
+    <div style="line-height: 1.8;color: white;" class="lead font-italic mb-4 container"> “A drone is often preferred for missions that are too ‘dull, dirty, or dangerous’ for manned aircraft.” Team AeRoVe of UMIC is on a never-ending pursuit of developing an ultimate system of autonomous fixed-wing as well as multirotor aircraft. Incorporating
+        different subsystems namely ‘Mechatronics’, ‘Controls’, ‘Machine Learning’, ‘Perception’, ‘Path Planning’, and ‘Localisation’, the team emphatically covers every aspect to forge a de rigueur system of autonomous aerial vehicles. We majorly focus
+        on two competitional problem statements, the International Aerial Robotics Competition (IARC) and the Barcelona Smart Drone Challenge (BSDC).
+    </div>
+</div>
+<div class="container">
+    <h1 class="mb-4">Competitions:</h1>
+    <a href="http://www.aerialroboticscompetition.org/"><h5 class="font-italic font-weight-bold">International Aerial Robotics Competition:</a>
+    </h5>
+    <img src="{% static 'img/s5.jpg' %}" class="display-4 my-4 text-center" style="width: 1000px; max-width: 85vw;">
+
+    <p>The team AeRoVe of UMIC trailed the problem statements of the IARC, the world’s premier and longest-running aerial robotics challenge, for the past two years and is consistently working and aiming to compete in the next edition. The primary purpose
+        of the International Aerial Robotics Competition (IARC) has been to “move the state-of-the-art in aerial robotics forward” through the creation of significant and useful mission challenges that are ‘impossible’ at the time they are proposed, with
+        the idea that when the aerial robotic behaviours called for in the mission are eventually demonstrated, the technology will have advanced to benefit the world.</p>
+    <p>
+        Team AeRoVe has chased the Mission 8 of IARC since 2018. Presented with the “Best Presentation Award” in Mission 8 of IARC in Beijing, China, the team has developed a ‘swarm’ of autonomous quadcopter systems specifically designed to work under GPS-denied
+        environments. Mission 8 focused on demonstrating technologies involved with Man-Unmanned Machine-Teaming (MUMT). In particular, a single human was to communicate navigation commands by either gesture or vocal commands to a team of four fully autonomous
+        aerial robots. The key behaviours demonstrated included fully autonomous flight, execution of verbal or gesture commands from a single human, and deciphering and assembling noise-corrupted segments of a QR code to reveal an “unlock code” to communicate
+        to the human team member.</p>
+
+    <img src="{% static 'img/aero2.jpg' %}" class="display-4 my-4 text-center" style="width: 500px; max-width: 85vw;">
+    <p>
+        The team has developed the required autonomous vehicle for the competition and is working towards making the system stable and sturdy than ever. The flight controllers used during the various instants of testing were different versions of PixHawk. Different
+        sensors like LiDAR and Depth cameras are also installed on the vehicle to aid the mission. Finally, the drone uses Intel NUC as the onboard computing unit. This unit is what activates “autonomy” in the drone, and holds and executes all the Path
+        Planning, Localisation, Machine Learning, Perception, and inter-vehicle communication algorithms. Regular testing of these algorithms on the aerial vehicle has helped in understanding the ambiguities in the system, and anchor these to perfect
+        the operation of the vehicles.
+    </p>
+
+   <a href="http://smartdronechallenge.org/"> <h5 class="font-italic font-weight-bold">Barcelona Smart Drone Challenge:</a>
+    </h5>
+    <p>BSDC 2020 engages undergraduate teams throughout the globe in designing, constructing, developing and demonstrating an autonomous unmanned aircraft system. It is capable of performing a series of tasks which include area search, waypoint navigation,
+        capturing data and photographs of the area, dropping payloads at certain places on the ground, performing manoeuvres like touch-and-go, and finally return to the base through a defined route. With a Maximum Take-off Mass (MTOM) of under 7 kg,
+        and operating within Visual Line of Sight (VLOS), the unmanned aircraft is visioned to be used in case of natural calamities.
+    </p>
+    <img src="{% static 'img/aero3.jpg' %}" class="display-4 my-4 text-center" style="width: 600px; max-width: 85vw;">
+    <p>
+        Participating for the first time in the Barcelona Smart Drone Challenge (BSDC) in its 2020 edition, the team AeRoVe has been working towards autonomous fixed-wing vehicles since December 2019. After successfully completing the two (“Concept Review” and
+        “Preliminary Design Review”) out of the three review rounds (required to be completed before participating in the final competition in Barcelona), the team is continuously adding to develop a rigorous system of autonomous fixed-wing aerial vehicles.
+        Since then, the team has built over ten prototypes and test aerial vehicles, and have successfully flown these vehicles to study and improve the operations of the system. The team was preparing to complete the last round (“Flight Readiness Review”)
+        required to be completed before the actual competition in Barcelona, but the subsequent events and the competition were detained on account of the COVID-19 pandemic.
+    </p>
+    <img src="{% static 'img/aero4.jpg' %}" class="display-4 my-4 text-center" style="width: 600px; max-width: 85vw;">
+    <p>
+        The team has built and tested different designs of fixed-wing vehicles for their control response and capability of flying with heavyweights on board. All the vehicles are installed with ProfiCNC’s PixHawk Cube as the flight controller and a GPS module
+        from u-blox to guide the drone through different GPS coordinates to complete the mission. Since the mission requires detection of alpha-numerical characters on the ground, a camera is needed to be installed on the vehicle which can detect the
+        image and send it to a computer which then uses ‘Perception’ and ‘Machine Learning’ algorithms to extract the information or the text written on the ground. This data is used by the ‘Controls’ to determine the next manoeuvre of the vehicle according
+        to the mission statement. We are currently working on the ‘remotely’ governable aspects of the mission and flight. The team is also testing the ‘Machine Learning’, ‘Controls’ and ‘Perception’ algorithms for different scenarios, while also improving
+        the design of the vehicle in the ‘Mechatronics’ subsystems by studying the various forces and moments acting on the airframe in a flight.</p>
+    <p>
+        Future hardware testing will begin as soon as the COVID19 conditions improve in the country.
+    </p>
+
+</div>
+
+{% endblock %}

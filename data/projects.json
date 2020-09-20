@@ -1,0 +1,142 @@
+[
+{
+    "model": "projects.project",
+    "pk": 1,
+    "fields": {
+        "image": "models/fpga.jpg",
+        "name": "Interfacing touch screen with FPGA",
+        "content": "The main goal of this project is to interface a touch screen with the FPGA. A resistive four wire touch screen is used for the same. Texas instrument\u2019s ADS7843 serves as a touch screen controller which converts analog signals from touch screen to digital signal that later is provided as an input to the FPGA. Programming of the FPGA is done in Verilog HDL language. The board is provided with an independent programming platform Quartus II. The serial communication is established between the FPGA and the ADC using SPI serial bus interface.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 2,
+    "fields": {
+        "image": "models/solaruav.PNG",
+        "name": "Solar Powered Unmanned Aerial Vehicle",
+        "content": "Unmanned Aerial Vehicles, UAV in short, are defined as powered vehicles that can take off, fly and land with no onboard crew. They can either fly remotely (a ground pilot controls the UAV directly using some kind of remote control) as well as autonomously (a flight path is introduced into the UAV and it just follows it). In recent years, the level of interest in the development of fixed-wing UAVs for various missions has risen significantly. A crucial issue concerning these aircraft is their high power consumption compared to their limited energy storage capability.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 3,
+    "fields": {
+        "image": "models/snake.PNG",
+        "name": "Snake Bot",
+        "content": "Snake Robots have many degrees of freedom, which makes them extremely versatile and complex to control. This report presents modular snake robot, its electronic architecture and control. Inspired by biological snake, snake robot moves using cyclic motions called gaits. These cyclic motions directly control the snake robot\u2019s internal degrees of freedom which causes a net motion. Each mode of the robot is controlled by a sinusoidal oscillator with four parameters: amplitude, frequency, phase, and offset.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 4,
+    "fields": {
+        "image": "models/trajectory.PNG",
+        "name": "Trajectory Following Bot",
+        "content": "Here, we assume sensory pose estimation and that a path has been planned, that is consistent with the kinematic constraints of the vehicle. We then go on to develop simple linear state feedback laws and test and augment them for a variety of path complexities. In comparison to many previous systems, the steering control described here is simple, robust and effective due to the position tracking.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 5,
+    "fields": {
+        "image": "models/grip.PNG",
+        "name": "Universal Grip",
+        "content": "The design of the gripper would require an in depth study to identify the mechanisms that could be used, and which would be the most suitable.\r\nOnce the design was finalized, the manufacturing processes could be initiated, and the appropriate components made according to the given specifications.\r\nRequired changes could be made according to the dynamic issues faced in the design and manufacture.\r\nOnce the gripper was completed, the testing and analysis of the functionality of the gripper would need to be carried out extensively.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 6,
+    "fields": {
+        "image": "models/calligraphy.PNG",
+        "name": "Calligraphy Robot",
+        "content": "The Calligraphy Robot is a system that is able to accept inputs from a computer and write the specified characters using the exact positioning of the inputs. The machine is able to accept commands through a directly connected personal computer. The personal computer uses direct form of communication with the robot through USB or Serial link. The main controller subsystem is able to interpret and communicate the limits of any given alphabet, and it can directly control movement of the attachable end effector, which in this case is a pen.The framework of the system is set up by the mechanical subsystem which will allow for movement in the x, y, z axes.\r\nThe motion of the end effector in x and y axes is achieved by a belt drive operated by stepper motors and the motion in the z axis is controlled using a solenoid puller.\r\nThe system is powered by a lead-acid battery.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 7,
+    "fields": {
+        "image": "models/ip.PNG",
+        "name": "Road Modelling for Autonomous Vehicle",
+        "content": "Image processing is a method to convert an image into digital form and perform some operations on it, in order to get an enhanced image or to extract some useful information from it. It is a type of signal dispensation in which input is image, like video frame or photograph and output may be image or characteristics associated with that image. Usually Image Processing system includes treating images as two dimensional signals while applying already set signal processing methods to them. It is among rapidly growing technologies today, with its applications in various aspects of a business. Image Processing forms core research area within engineering and computer science disciplines too. Image processing basically includes the following three steps.\r\nImporting the image with optical scanner or by digital photography.\r\nAnalysing and manipulating the image which includes data compression and image enhancement and spotting patterns that are not to human eyes like satellite photographs.\r\nOutput is the last stage in which result can be altered image or report that is based on image analysis.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 8,
+    "fields": {
+        "image": "models/kinect.jpg",
+        "name": "Kinect Based Obstacle Avoider Robot",
+        "content": "Kinect based obstacle avoider robot uses the Kinect Xbox 360 sensor for getting the feed of the environment around the robot in 3D raw data. These raw data is transformed in RGB image with the help of CL NUI Kinect drivers.\r\nRobot gets the controlling signals after processing the RGB image using OpenCV libraries OpenCV is mostly used for image processing and object tracking. The IDEs used for writing programs are Visual Studio and Programmer\u2019s Notepad.\r\nThe Serial communication between compute and micro-controller was established using RS232 the micro-controller used is Atmega128",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 9,
+    "fields": {
+        "image": "models/psibot.PNG",
+        "name": "Indoor Navigation Robot",
+        "content": "The main objective of this robot is to autonomously travel in the premises and do basic tasks, avoiding any dynamic obstacle that comes in its path by relying on vision and wheel odometer information.\r\nAccomplishing this includes the following steps:\r\nBeing able to manually move the robot with the help of keyboard keys or a joystick using appropriate motors and a motor controller.\r\nBeing able to perform localisation. Kalman filters and particle filters are methods of localisation that can be employed.\r\nPerforming SLAM \u2013 Simultaneous Localisation and Mapping.\r\nPath planning using algorithms such as Dijkstra\u2019s and A-Star.\r\nEfficiently traversing this path by successfully implementing the Proportional Integral Derivative control.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 10,
+    "fields": {
+        "image": "models/backpackrover.PNG",
+        "name": "Backpack Rover",
+        "content": "A remote operated vehicle specifically for military purposes. A soldier can carry it in his backpack and deploy it to a location that is out of sight and enables the unit to avoid a rigged explosive device",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 11,
+    "fields": {
+        "image": "models/elecatv.PNG",
+        "name": "Electric All Terrain Vehicle",
+        "content": "Designing purpose of this remote control EATV is to manufacture a vehicle prototype that provides help in supplying food in affected areas and to carry payload for army.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 12,
+    "fields": {
+        "image": "models/keyless.PNG",
+        "name": "Keyless door lock with home automation",
+        "content": "The goal of the project was to implement a smart home system by controlling the electronic devices at home remotely with a mobile phone and to receive alerts on movement around restricted premises. Using other technologies for communication, for example wireless communication using radio frequency, the Bluetooth technology or the Internet, could further extend the project.",
+        "no_image": 0
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 13,
+    "fields": {
+        "image": "models/icon4.png",
+        "name": "Maze Solver 2018",
+        "content": "This competition was organized by the Electronics and robotics club of IIT Bombay and was participated by our freshman team with completed the competition with a record time. The competition demanded to solve a maze with walls and reach the goal in minimum time. The team built a small bot which was manufactured using Laser cutting with acrylic as the base material. The chassis had a front castor wheel with two rear motor-powered wheels so that it can turn about itself with a small turning radius if required. A 9v LIPO battery was attached for onboard power supply. Equipped with 3 ultrasonic sensors and Arduino UNO as brains, this bot was able to detect surrounding walls and remain in the middle of the lane and avoid any collision. Most important part of the framework design was to keep the ultrasonic sensors concrete in cases of collision as well as when the bot moved. Interconnecting and precise fit parts were used for this purpose. Left-first and backtracking algorithms were used to explore and solve the maze. PID was used to tune the turns and lane centring of the bot. This bot was built in a span of 1-week by a team of 4 freshmen.",
+        "no_image": 1
+    }
+},
+{
+    "model": "projects.project",
+    "pk": 14,
+    "fields": {
+        "image": "models/self_balancing_arm.png",
+        "name": "Self Balancing Arm",
+        "content": "The aim of this project was to build a Self-Levelling Arm that adjusts itself in a horizontal position, even in the presence of external disturbances, using a PID controller. The horizontal angular position was measured using an IMU (alternatively, a potentiometer attached to the fulcrum could be used). The angular error was passed onto an Arduino UNO, which used a PID loop to drive two Brushless motors at the ends, at varying speeds, that balanced the arm.",
+        "no_image": 0
+    }
+}
+]

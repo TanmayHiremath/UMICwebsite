@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+	{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+<h3 class="tour-bg d-flex flex-column justify-content-center my-5 pageTitle" ><b>Contact Us</b></h3>
+<div class="page bg-light container my-3">
+    <br>
+    <div style="text-align: center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.992620424454!2d72.91861862259042!3d19.13404982968672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7f682a49bfd%3A0x3175afa352488225!2sUnmesh%20Mashruwala%20Innovation%20Cell!5e0!3m2!1sen!2sin!4v1592071736004!5m2!1sen!2sin" width="75%" height="400px" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <br>
+    <div>
+        <a style="color: black; text-decoration: none;" href="https://goo.gl/maps/6KdHaTZVnVGrpM2W9" target="_blank"><h4 style="text-align: center; font-weight: 500;">F3 Shed, near BETiC Lab / OrthoCAD, IIT Area, Powai, Mumbai, Maharashtra 400076</h4></a>
+        <a style="color: black; text-decoration: none;" href="mailto:contact@umiciitb.com"><h4 style="text-align: center; font-weight: 500;">contact@umiciitb.com</h4></a>
+        <br>
+    </div>
+    <div class="contactPageDetailCont">
+        <div class="contactCard">
+            <div class="contactCardTitle">Harshal Kataria</div><br>
+            Overall Coordinator <br>
+            Team AeRoVe <br>
+            Department of Aerospace Engineering <br>
+            IIT Bombay, Powai
+            <br><br>
+            <i class="fa fa-phone"></i> <a href="callto:+919594223744" style="text-decoration: none; color: black;">+91 95942 23744</a><br> 
+            <i class="fa fa-envelope"></i><a href="mailto:harshal@umiciitb.ac.in" style="text-decoration: none; color: black;"> harshal@umiciitb.ac.in</a>
+        </div>
+        <div class="contactCard">
+            <div class="contactCardTitle">Pranav Sunil Deo</div><br>
+            Overall Coordinator <br>
+            Team SeDriCa <br>
+            Department of Civil Engineering<br>
+            IIT Bombay, Powai
+            <br><br>
+            <i class="fa fa-phone"></i> <a href="callto:+917875352249" style="text-decoration: none; color: black;">+91 78753 52249</a><br> 
+            <i class="fa fa-envelope"></i> <a href="mailto:pranav@umiciitb.ac.in" style="text-decoration: none; color: black;">pranav@umiciitb.ac.in</a>
+        </div>
+    </div>
+    <br>
+    <h3 style="text-align: center;font-weight: 400;">Our Social Media Pages<h3>
+    <h5 style="text-align: center;font-weight: 200;">We post regular updates on our progress and make announcements regarding various activities and events that we take part in.<h5> 
+    <div class="row">
+        <div class="col-md-4 py-3">
+            <h5 style="text-align: center;font-weight: 500;">Facebook</h5>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Finnovationcell%2F&tabs=timeline&width=340&height=500px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-md-4 py-3">
+            <h5 style="text-align: center;font-weight: 500;">Instagram</h5>
+            <div style="max-height: 500px; overflow: auto;">
+                <div id="curator-feed-umic-insta-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+                <script type="text/javascript">
+                (function(){
+                var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+                i.src = "https://cdn.curator.io/published/48f7a96b-9686-4f09-acfb-ba4940e6db19.js";
+                e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+                })();
+                </script>
+            </div>
+        </div>
+        <div class="col-md-4 py-3" >
+            <h5 style="text-align: center;font-weight: 500;">Linkedin</h5>
+            <div style="max-height: 500px; overflow: auto;" >
+            <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+            <script type="text/javascript">
+            (function(){
+            var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+            i.src = "https://cdn.curator.io/published/4a352ee2-3d81-48fe-a30b-515fb79951b7.js";
+            e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+            })();
+            </script>
+        </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<style type="text/css">
+    a :hover {
+        color: rgb(0, 171, 245);
+    }
+</style>
+{% endblock %}

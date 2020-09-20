@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/gallery_style.css' %}">
+<h3 class="tour-bg d-flex flex-column justify-content-center my-5"><b>Gallery</b></h3>
+<div class="container gallery-container">
+
+    <div class="tz-gallery">
+        <h1 id="achivements">Achievements</h1>
+        <div class="row">
+            {% for obj in achieve %}
+            {% if obj.img %}
+            <div class="col-sm-6 col-md-4">
+                {% if obj.informal_caption != 'caption' or obj.formal_caption != 'caption'  %}
+                <a ontouchstart="showCaption(event)" ontouchend="closeCaption(event)" class="lightbox"
+                    href="{{ obj.img.url }}" data-caption="{{obj.formal}}">
+                    <img src="{{ obj.img.url }}" alt="">
+                    <span class="text-center">{{ obj.informal }}</span>
+
+                    {% else %}
+                    <a class="lightbox" href="{{ obj.img.url }}">
+                        <img src="{{ obj.img.url }}" alt="">
+                        {% endif %}
+                    </a>
+                </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <h1 id="team">Team</h1>
+        <div class="row">
+            {% for obj in team %}
+            {% if obj.img %}
+            <div class="col-sm-6 col-md-4">
+                {% if obj.informal_caption != 'caption' or obj.formal_caption != 'caption'  %}
+                <a ontouchstart="showCaption(event)" ontouchend="closeCaption(event)" class="lightbox"
+                    href="{{ obj.img.url }}" data-caption="{{obj.formal}}">
+                    <img src="{{ obj.img.url }}" alt="">
+                    <span class="text-center">{{ obj.informal }}</span>
+
+                    {% else %}
+                    <a class="lightbox" href="{{ obj.img.url }}">
+                        <img src="{{ obj.img.url }}" alt="">
+                        {% endif %}
+                    </a>
+                </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <h1 id="robots">Robots</h1>
+        <div class="row">
+            {% for obj in robo %}
+            {% if obj.img %}
+            <div class="col-sm-6 col-md-4">
+                {% if obj.informal_caption != 'caption' or obj.formal_caption != 'caption'  %}
+                <a ontouchstart="showCaption(event)" ontouchend="closeCaption(event)" class="lightbox"
+                    href="{{ obj.img.url }}" data-caption="{{obj.formal}}">
+                    <img src="{{ obj.img.url }}" alt="">
+                    <span class="text-center">{{ obj.informal }}</span>
+
+                    {% else %}
+                    <a class="lightbox" href="{{ obj.img.url }}">
+                        <img src="{{ obj.img.url }}" alt="">
+                        {% endif %}
+                    </a>
+                </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <h1 id="miscellaneous">Miscellaneous</h1>
+        <div class="row">
+            {% for obj in misc %}
+            {% if obj.img %}
+            <div class="col-sm-6 col-md-4">
+                {% if obj.informal_caption != 'caption' or obj.formal_caption != 'caption'  %}
+                <a ontouchstart="showCaption(event)" ontouchend="closeCaption(event)" class="lightbox"
+                    href="{{ obj.img.url }}" data-caption="{{obj.formal}}">
+                    <img src="{{ obj.img.url }}" alt="">
+                    <span class="text-center">{{ obj.informal }}</span>
+
+                    {% else %}
+                    <a class="lightbox" href="{{ obj.img.url }}">
+                        <img src="{{ obj.img.url }}" alt="">
+                        {% endif %}
+                    </a>
+                </a>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+    function closeCaption(event) {
+        var child = event.path[1].children[1]
+        $(child).slideUp(50)
+    }
+    function showCaption(event) {
+        var child = event.path[1].children[1]
+        $(child).slideDown(100).css("display", "block");
+    }
+    $('a').hover(function () {
+        $(this).children('span').slideDown(100).css("display", "block");
+    }, function () {
+        $(this).children('span').slideUp(50)
+    })
+</script>
+{% endblock %}

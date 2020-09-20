@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<!-- Flickity HTML init -->
+<div class="carousel"
+    data-flickity='{ "wrapAround": true, "imagesLoaded": true, "percentPosition": false, "autoPlay": 5000}'>
+    <img class="carousel-image" src="{% static 'img/s1.jpg' %}" alt="" />
+    <img class="carousel-image" src="{% static 'img/s2.jpg' %}" alt="" />
+    <img class="carousel-image" src="{% static 'img/s3.jpg' %}" alt="" />
+    <img class="carousel-image" src="{% static 'img/s4.jpg' %}" alt="" />
+    <img class="carousel-image" src="{% static 'img/s5.jpg' %}" alt="" />
+</div>
+
+<br>
+<br>
+<div class="container-fluid bg-light py-4 mb-4">
+    <div class="container">
+            <p class="lead justified" style="line-height: 1.8;"  id="sponsormessagetext">Unmesh Mashruwala Innovation Cell, also widely known as UMIC, is a tech team formed to embrace and develop the idea of an autonomous future. The team consists of 40+ diligent and dedicated students from various fields of study from IIT Bombay.
+                <br>
+                UMIC works on the principle of co-existence of Machines and Humans developing automated prototypes to make the world a safer and more sustainable place. Under the sheds of the UMIC, the primary area of focus is developing autonomous vehicles. Team AeRoVe is aiming for the skies and is on a continuous pursuit of advancing autonomous multi-copters and fixed-wing systems for search and rescue operations. Likewise, Team SeDriCa has its feet on the ground and is developing an autonomous car for the Indian roads.                
+    </div>
+</div>
+<div class="container-xl">
+    <div id="competition-section" class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="{% static 'img/aerove_logo1.jpg' %}" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">AeRoVe</h4>
+                <p class="card-text text-center font-weight-bold">Autonomous Aerial Vehicles Team</p>
+                <p class="card-text">“A drone is often preferred for missions that are too ‘dull, dirty, or dangerous’
+                    for manned aircraft.” The team AeRoVe of UMIC is on a never-ending pursuit of developing an ultimate
+                    system of autonomous fixed-wing as well as multirotor aircraft. </p>
+                </div>
+                <div class="card-footer">
+                    <a href="competitions/AeRoVe" class="btn"><span class="pr-1"> Read More</span><i class="fa fa-arrow-circle-right ml-2" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top pt-2" src="{% static 'img/sedrica_final.png' %}" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">SeDriCa</h4>
+                <p class="card-text text-center font-weight-bold">India's First Self-Driving Car</p>
+                <p class="card-text">"Self-driving cars are the natural extension of active safety and obviously
+                    something we should do," says Elon Musk and we have no doubts about this. Self-driving cars have
+                    always been a dream and the continuous advancements in technologies are bringing us a step closer to
+                    this dream.</p>
+                </div>
+                <div class="card-footer">
+                <a href="competitions/SeDriCa" class="btn"><span class="pr-1"> Read More</span><i class="fa fa-arrow-circle-right ml-2" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top py-1" src="{% static 'img/asme_logo.jpg' %}" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title text-center">ASME</h4>
+                <p class="card-text text-center font-weight-bold">Student Design Competition</p>
+                <p class="card-text">The ASME Student Design Competition provides a platform
+                    for ASME Student Members to present their solutions to a range of design problems - from everyday
+                    household tasks to groundbreaking space exploration. </p>
+                </div>
+            <div class="card-footer">
+                <a href="competitions/ASME" class="btn"><span class="pr-1"> Read More</span><i class="fa fa-arrow-circle-right ml-2" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Events and announcements -->
+<section class="two-column-list mb-sm-5 pr-lg-3 container-fluid bg-light mt-4" id="two-column-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pl-0 py-5">
+                <section aria-label="Announcements" class="announcements pl-lg-3">
+                    <h2 class="font-weight-bold border-bottom pb-3 mt-3 mb-0">Announcements</h2>
+
+                    <div class="announcement-slider border-r-xs-0 border-r position-relative">
+                        <div>
+                            <ul class="nolist list-unstyled position-relative mb-0 ">
+                                {% for ann in announcements %}
+                                <li class="border-bottom pb-3">
+                                    <span class="meta text-uppercase pl-3">{{ ann.month_yr }}</span>
+                                    <h3 class="font-weight-bold mt-0 pl-3">
+                                        <a href="{{ ann.link }}">
+                                            {{ ann.title }}
+                                        </a>
+                                    </h3>
+                                    <a href="{{ ann.link }}">
+                                    <p class="m-0 post_intro pl-3">{{ ann.content }}</p></a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            <a class="all pos-stat text-uppercase"
+                                href="https://www.facebook.com/innovationcell/">All announcements
+                                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-lg-6 pl-0 py-5">
+                <section class="events-section pl-lg-3" aria-label="Events">
+                    <h2 class="font-weight-bold border-bottom pb-3 mt-3 mb-0">Events</h2>
+                    <div class="events">
+                        <div class="events-block">
+                            <ul class="nolist list-unstyled position-relative mb-0">
+                                {% for ev in events %}
+                                <li class="border-bottom align-items-center">
+                                    {% if ev.month_yr != None %}
+                                    <span class="meta text-uppercase pl-3">{{ ev.month_yr }}</span>
+                                    {% endif %}
+                                    <div class="d-inline-block pl-3 event-li">
+                                        <h3 class="font-weight-bold mt-0">
+                                            <a href="/events/">
+                                                {{ ev.title }}
+                                            </a>
+                                        </h3>
+                                        <p>
+                                            {{ ev.content|truncatewords:30 }}
+                                        </p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            <a class="all pos-stat text-uppercase" href="/events/">All events
+                                <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <div id="video" class="text-center container">
+        <div class="embed-responsive embed-responsive-16by9" style="border-radius: 10px;">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nG-g2qUkGCk?rel=0" allowfullscreen="true"></iframe>
+          </div>
+    </div>
+
+
+<br>
+<br>
+<!-- Sponsors -->
+<section id="clients">
+    <div class="container">
+
+        <div class="clients text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms"
+            style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInUp;">
+            <!-- <p><img src="{% static 'img/clients.png' %}" class="img-responsive" alt=""></p> -->
+            <h3 style="font-size:45px; text-align:center; font-style:bold;"><b>Our Sponsors</b></h2>
+                <p>We would like to thank the generous support of our sponsors</p>
+        </div>
+        <div class="text-center">
+            <img id="large" src="{% static 'img/sponsors.png' %}" alt="" />
+            <img id="small" src="{% static 'img/sponsors.png' %}" alt="" />
+
+        </div>
+    </div>
+</section>
+{% endblock %}

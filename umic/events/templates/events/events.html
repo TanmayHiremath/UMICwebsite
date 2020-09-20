@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+	{{title}}
+{% endblock %}
+
+{% block content %}
+<h3 class="tour-bg d-flex flex-column justify-content-center my-5"><b>Events</b></h3>
+{% load static %}
+<link href="{% static 'css/style_events.css' %}" rel="stylesheet">
+{% for obj, images in events.items %}
+
+<div class="container-fluid {% cycle 'bg-gray' '' %} " style="margin-bottom: 40px; padding-bottom: 40px; margin-top: 0;">
+    <div class="container" style="margin-top: 0;">
+	<div class="text-dark display-4 text-center py-3" style="margin-top: 10px; color: white;">{{ obj.title }}</div>
+    <br>
+    {% if images %}
+    <div class="tz-gallery img-xs-center">
+        <div class="mb-3 mx-3 {% cycle 'float-md-left' 'float-md-right' %}">
+        	{% for img in images %}
+	        	{% if img.image %}
+		            
+		                <a class="lightbox" href="{{ img.image.url }}">
+		                    <img  src="{{ img.image.url }}" alt="">
+		                </a>
+		           
+	            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+	<p> {{ obj.content }} </p>
+    {% if obj.month_yr != None %}
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <p class="font-italic font-weight-bold" style="text-align: right">- {{ obj.month_yr }}</p>
+        </div>
+    </div>
+    {% endif %}
+    
+</div></div>
+{% endfor %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
+{% endblock %}

@@ -1,0 +1,146 @@
+[
+{
+    "model": "sponsors.sponsor",
+    "pk": 11,
+    "fields": {
+        "name": "Nvidia",
+        "url": "https://www.nvidia.com/en-in/",
+        "image": "sponsors/13_uba6kc7.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 12,
+    "fields": {
+        "name": "Velodyne LiDAR",
+        "url": "https://velodynelidar.com",
+        "image": "sponsors/14_5SZ03kQ.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 13,
+    "fields": {
+        "name": "Reliance Industries Limited",
+        "url": "http://www.ril.com",
+        "image": "sponsors/15.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 14,
+    "fields": {
+        "name": "Ouster",
+        "url": "https://www.ouster.io",
+        "image": "sponsors/16.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 15,
+    "fields": {
+        "name": "Epsilon",
+        "url": "http://epsilonfiberoptics.com",
+        "image": "sponsors/epsilon.jpg"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 16,
+    "fields": {
+        "name": "Sick",
+        "url": "https://www.sick.com/in/en//",
+        "image": "sponsors/2.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 17,
+    "fields": {
+        "name": "Texas Instruments",
+        "url": "http://www.ti.com",
+        "image": "sponsors/3.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 18,
+    "fields": {
+        "name": "ifm electronic",
+        "url": "https://www.ifm.com",
+        "image": "sponsors/4.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 19,
+    "fields": {
+        "name": "autonoumouStuff",
+        "url": "http://www.autonomoustuff.com",
+        "image": "sponsors/5_eZrcGnT.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 20,
+    "fields": {
+        "name": "Roboteq",
+        "url": "http://www.roboteq.com/index.php",
+        "image": "sponsors/6.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 21,
+    "fields": {
+        "name": "asbsystems",
+        "url": "http://asbsystems.co.in",
+        "image": "sponsors/7.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 22,
+    "fields": {
+        "name": "Vectornav",
+        "url": "http://www.vectornav.com",
+        "image": "sponsors/8.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 23,
+    "fields": {
+        "name": "Sparton",
+        "url": "http://sparton.com",
+        "image": "sponsors/9_gNTwac3.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 24,
+    "fields": {
+        "name": "maxon motor",
+        "url": "http://www.maxonmotor.in/maxon/view/content/index",
+        "image": "sponsors/10.png"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 25,
+    "fields": {
+        "name": "Continental",
+        "url": "http://www.continental-automotive.com",
+        "image": "sponsors/11_zCaSWLY.jpg"
+    }
+},
+{
+    "model": "sponsors.sponsor",
+    "pk": 26,
+    "fields": {
+        "name": "Sica",
+        "url": "http://www.sica.in/Index.aspx",
+        "image": "sponsors/12.PNG"
+    }
+}
+]

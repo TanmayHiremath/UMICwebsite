@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style_comp.css' %}">
+<div class="container">
+      <div id="Robowars" class="display-4 font-weight-bold my-4 text-center myfont">Techfest International Robowars 2017
+      </div>
+      <img id="robowars1" src="{% static 'img/robowars1.jpg' %}">
+      <p>We participated in the 120lbs(55 kg) category for this competition. This particular bot was built with
+            robustness as our prime focus. This fact is reflected in the custom-designed hybrid aluminium and mild steel
+            chassis which was made to balance the weight and toughness of the bot. Equipped with superior defence, the
+            weapon of choice in this bot was a rotating drum having an advancing flight to attack the opponents. This
+            rotating drum weighed around 35kgs and rotated at around 3000RPM. Inertia developed by this drum is enough
+            to obliterate literally anything in its way! A novelty in this bot design was its bi-symmetrical design,
+            which meant toppling won’t have any effect on this bot. Another novelty involved with the design was its
+            minimal ground clearance which meant opponents with wedges as their weapon couldn’t get under our bot to jam
+            us in any way. The major challenge in this build was to protect the electrical connections, circuit
+            components and batteries from external impacts. This bot was remotely controlled and a mesh of aluminium
+            insides used to restrict play in electrical components and sustain any external impact or shock experienced
+            by the bot. As the name suggests, indeed it was a ‘BEAST’ in its entirety, with sturdy insides, equipped
+            with a lethal weapon plus a superior defence.
+      </p>
+      <div id="DRDO" class="display-4 font-weight-bold my-4 text-center myfont">DRDO DRUSE Program 2018
+      </div>
+      <img id="drdo1" src="{% static 'img/drdo1.png' %}">
+
+      <p>The aim of DRUSE 2018 was to create a platform for the development of futuristic defence systems. The
+            participants were UG and PG from engineering backgrounds all over India.
+            We participated with two different teams working on two different project ideas.
+      </p>
+
+
+      <p>For the first one, we carried out the ideation and development of Military Grade Unmanned Surveillance Drone
+            with mobility over water, land and air, where a differential drive mechanism was combined with Paddle Wheels
+            for maneuvering over land and water with a multi rotor configuration to perform aerial maneuvers. Along with
+            this an implementation of noise cancellation techniques for reducing the noise of multirotor for stealthy
+            missions.</p>
+      <div style="clear: both;"></div>
+      <img id="drdo2" src="{% static 'img/drdo2.jpg' %}">
+
+      <p>
+            Along with this, the idea of an Autonomous All-Terrain Vehicle (AATV) for Armed forces was proposed to DRDO, where
+            the AATV was designed to carry a payload of 200kg while following a human soldier and move on audio
+            commands for unmanned scouting and surveillance for dangerous tasks such as mine detection before the entry of
+            human soldiers.
+            These tasks can be carried out by target detection and tracking using computer vision and path planning
+            algorithms for smooth movement.
+
+            Both these projects were presented to a 7 member expert panel from DRDO
+      </p>
+      <br><br>
+      <div id="IRC" class="display-4 font-weight-bold my-4 text-center myfont">International Robotics Competition</div>
+      <img id="irc1" src="{% static 'img/IRC_image.jpeg' %}">
+      <p>
+            The task demanded two bots, one remote-controlled and another autonomous with coordination between them. The remote-control bot was expected to carry out the tasks of box picking, holding and placing, climbing on inclined ramps, and shooting a dart at the target while the autonomous bot had to find the path in a line maze avoiding certain nodes, pick up, hold and place boxes and be able to recognize logos and directions using a camera.
+            The problem statement was to pick and place 3 boxes on the arena at their marked destination squares, solving a line maze avoiding all black nodes, detecting directions and logos automatically and throwing a dart at a board all under 6 minutes.
+            Our freshmen team managed to build both of these bots under a period of 3 months and participated in the competition held at Techfest-17
+            
+      </p>
+      <div style="clear: both;"></div>
+
+</div>
+
+{% endblock %}

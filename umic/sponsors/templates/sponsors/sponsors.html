@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% block head_title %} {{title}} {% endblock %} {% block content %} {% load static %}
+<link rel="stylesheet" href="{% static 'css/sponsor.css' %}">
+<h3 class="tour-bg d-flex flex-column justify-content-center my-5"><b>Our Sponsors</b></h3>
+<div id="sponsormessagetext" class="container-fluid bg-light py-3 mt-2 mb-5">
+    <h2 id="sponsormessagehead" class="mt-2 mb-4">Message to sponsors</h3>
+        <p class="lead" id="sponsormessagetext">Our goal at UMIC is to implant and propagate the ideas of an autonomous future in the young innovators to inspire them to join us on this path and create a better, leisurely, and a safer world. This vision at UMIC would not have become reality
+            without the huge commitment and active contribution from our sponsors and partners. We believe that such collaboration acts as a bridge between industry and academia, and the culture at IIT Bombay promotes such a collaboration. We would sincerely
+            like to thank the esteemed Director and Deans, IIT Bombay, our FACADs, our sponsors, and our admirers for their overwhelming support and beliefs they have in us!
+            <br><span id="sponsormessagelooking">Thank You!</span></p>
+</div>
+</div>
+<section id="clients">
+    <div class="container">
+
+        <div class="clients text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInUp;">
+            <!-- <p><img src="{% static 'img/clients.png' %}" class="img-responsive" alt=""></p> -->
+
+            <p class="lead mt-3" style="font-weight: 400;">We would like to thank the generous support of our sponsors
+            </p>
+        </div>
+        <div class="text-center">
+            <img id="large" src="{% static 'img/sponsors.png' %}" alt="" />
+            <img id="small" src="{% static 'img/sponsors.png' %}" alt="" />
+
+        </div>
+    </div>
+</section>
+{% endblock %}

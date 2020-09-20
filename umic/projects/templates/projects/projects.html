@@ -1,0 +1,46 @@
+{% extends "base.html" %} {% block head_title %} {{title}} {% endblock %} {% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/projects_style.css' %}">
+<h3 class="tour-bg d-flex flex-column justify-content-center my-5"><b>Projects</b></h3>
+<div class="container" id="projects">
+    {% for objects in obj_list %} {% for obj in objects %} {% if forloop.counter == 1 %}
+    <div class="featurette bg-light py-3 my-3" style="border-radius: 20px;">
+        <h2 class="featurette-heading" style="padding-right: 20px; padding-left: 20px;">{{ obj.name }}</h2>
+        <div class="row" style="padding-right: 20px; padding-left: 20px;">
+            <div class="col-md-8 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms"
+                style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft; display: flex; align-items: center; flex-wrap: wrap;">
+
+                <p>{{ obj.content }}</p>
+            </div>
+            {% if obj.image %}
+            <div class="col-md-4 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms"
+                style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight; display: flex; align-items: center; flex-wrap: wrap;">
+                <img class="img-fluid img-responsive mx-auto" style="display: block; height: auto; width: 100%;"
+                    src="{{ obj.image.url }}">
+            </div>
+
+            {% endif %}
+        </div>
+    </div>
+    {% endif %} {% if forloop.counter == 2 %}
+    <div class="featurette bg-light py-3 my-3" style="border-radius: 20px;">
+        <h2 class="featurette-heading" style="padding-right: 20px; padding-left: 20px;">{{ obj.name }}</h2>
+        <div class="row" style="padding-right: 20px; padding-left: 20px;">
+            {% if obj.image %}
+            <div class="col-md-4 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms"
+                style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft; display: flex; align-items: center; flex-wrap: wrap;">
+                <img class="img-fluid img-responsive mx-auto" style="display: block; height: auto; width: 100%;"
+                    src="{{ obj.image.url }}">
+            </div>
+
+            {% endif %}
+            <div class="col-md-8 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms"
+                style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight; display: flex; align-items: center; flex-wrap: wrap;">
+
+                <p>{{ obj.content }}</p>
+            </div>
+        </div>
+    </div>
+    {% endif %} {% endfor %} {% endfor %}
+</div>
+{% endblock %}

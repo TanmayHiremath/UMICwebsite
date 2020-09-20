@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+	{{title}}
+{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style_comp.css' %}">
+<!-- <section id="projects" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-3">
+                    <div class="sidebar portfolio-sidebar">
+                        <div class="sidebar-item categories">
+                            <ul class="nav navbar-stacked" style="border-right: 1px solid #C0C0C0">
+                                <li class="active"><a href="#">ASME 2017</a></li>  
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-sm-9">
+                   
+                    
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                        <img src="images/home/image1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight;">
+                        <h2>Motivation</h2>
+                        <p>The Student Design Competition organized by ASME is a platform for students to invent engineering solutions to a range of real-world problem from everyday household tasks to groundbreaking space explorations. These are built around design, advanced manufacturing and robotics technologies. They enable engineering students to expand their knowledge, test and showcase new skills and inspire innovation.
+</p>
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                         <h2>Problem Statement</h2>
+                        <p>The 2017 SDC problem statement was to create a robot that is fast, strong and agile. The team had been tasked with the development of a multi-functional robotic platform to compete in a series of five athletic-based competitions: a sprint, tennis ball throw, stair climb, golf ball hit, and weight lift; scores from each of which were considered to determine the overall champion.For complete Problem Statement, <a href="ASME.pdf" target="_blank">click here</a></p>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight;">
+                        <img src="images/home/image2.gif" class="img-responsive" width="427" height="140" alt="">
+                    </div>
+                </div>
+                <div class="single-features">
+                 <div class="col-sm-5 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                        <img src="images/home/header-bg.jpg" class="img-responsive" width="450" height="200" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight;">
+                        <h2>Design/Prototyping</h2>
+                        <p><b>Sprint:</b> We built a 4 wheeled differential vehicle with closed loop control (PID) using encoder feedback. <br>
+<b>Tennis Ball Throw:</b> The tennis ball was squeezed in between 2 high speed rollers. A servo motor enabled rack and pinion mechanism pushed the ball in between the rollers. <br>
+<b>Golf Ball Hit:</b> The golf ball kept 2mm above ground is hit via a custom made hitting rod. Energy is provided to this rod via stored torsional spring potential energy.  <br>
+<b>Weight Lift:</b> Scissor mechanism powered by two linear actuators is used to lift the weight. <br>
+<b>Stair Climbing:</b> Besides high powered, high traction wheels, we used a 2 inch linear actuator at the back of the vehicle to help it climb the stairs. 
+
+</p>
+                    </div>
+                </div>
+                <br>
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;">
+                        <h2>Achievement</h2>
+                        <p>The team from IIT Bombay-Innovation Cell, has won all the events of ASME Student Design Competition (SDC-2017), along with the Advanced Manufacturing Challenge and Predictive Design &amp; Simulation Challenge, beating the teams across Asia Pacific region. The ASME (American Society of Mechanical Engineers) SDC E-fest event was hosted by LNM Institute of Information Technology Jaipur from March 3-5, 2017.
+ </p><button class="btn btn-primary">Read More</button>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight;">
+                        <img src="images/home/image4.gif" class="img-responsive" width="427" height="140" alt="">
+                    </div>
+                </div>
+        
+                    </div>
+                </div>
+            </div>
+        
+    </section> -->
+
+<div class="container">
+    <a href="/competitions/ASME">ASME</a>
+    <a href="/competitions/AeRoVe">AeRoVe</a>
+    <a href="/competitions/SeDriCa">SeDriCa</a>
+    <a href="/competitions/others#Robowars">Robowars</a>
+    <a href="/competitions/others#DRDO">DRDO</a>
+    <a href="/competitions/others#IRC">IRC</a>
+    </div>
+{% endblock %}
